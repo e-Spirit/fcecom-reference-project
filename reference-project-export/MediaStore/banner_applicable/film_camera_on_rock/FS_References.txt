@@ -1,0 +1,6 @@
+[self]
+uid=film_camera_on_rock
+gid=9a2caefe-1902-4652-ac7b-406343c8f770
+uidType=MEDIASTORE_LEAF
+class=de.espirit.firstspirit.store.access.mediastore.MediaImpl
+

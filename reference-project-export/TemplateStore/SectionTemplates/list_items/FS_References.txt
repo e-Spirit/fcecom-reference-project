@@ -1,0 +1,7 @@
+[self]
+uid=/list_items
+gid=2e940a96-ee9a-46ed-8aaf-da57278051c4
+store=TEMPLATESTORE
+class=de.espirit.firstspirit.store.access.templatestore.TemplateFolderImpl
+root=de.espirit.firstspirit.store.access.templatestore.SectionTemplatesImpl
+

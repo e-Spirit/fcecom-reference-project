@@ -1,0 +1,1 @@
+if(!st_text.empty, truncate(if(!st_headline.empty && st_text.toText(false).length > 30, st_text.toText(false).subString(30), st_text.toText(false))))

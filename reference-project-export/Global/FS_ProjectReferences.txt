@@ -1,0 +1,12 @@
+[WebeditSystemFolder]
+uid=root
+gid=6376bb5b-c098-4071-9fcd-af58bbafc80d
+uidType=PAGESTORE
+class=de.espirit.firstspirit.store.access.pagestore.PageStoreRootImpl
+
+[ProjectPropertiesTemplate]
+uid=project_settings
+gid=4370a4d9-58f8-4fd3-b0b1-688402dc1ee5
+uidType=TEMPLATESTORE
+class=de.espirit.firstspirit.store.access.templatestore.PageTemplateImpl
+

@@ -1,0 +1,6 @@
+[self]
+uid=banner_applicable
+gid=23a7eae2-89a3-4a9d-8c67-c01faa3f6b72
+uidType=MEDIASTORE_FOLDER
+class=de.espirit.firstspirit.store.access.mediastore.MediaFolderImpl
+

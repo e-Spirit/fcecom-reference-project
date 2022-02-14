@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDIUM filename="FilmCameraOnRock" id="8783638688054940307" type="pic" uniquedescription="film_camera_on_rock">
+	<LANG displayname="Film Camera on Rock" language="EN"/>
+	<LANG displayname="Filmkamera auf Felsen" language="DE"/>
+	<PICTURE>
+		<RESOLUTION extension="jpg" height="4000" mimetype="image/jpeg" resolutionid="ORIGINAL" width="6000"/>
+	</PICTURE>
+</MEDIUM>

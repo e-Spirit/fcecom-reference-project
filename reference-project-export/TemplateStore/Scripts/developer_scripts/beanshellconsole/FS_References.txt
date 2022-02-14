@@ -1,0 +1,6 @@
+[self]
+uid=beanshellconsole
+gid=28de22ac-40a0-451d-856e-fcf621960544
+uidType=TEMPLATESTORE
+class=de.espirit.firstspirit.store.access.templatestore.ScriptImpl
+

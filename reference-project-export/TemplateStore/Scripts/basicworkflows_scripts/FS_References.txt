@@ -1,0 +1,7 @@
+[self]
+uid=/basicworkflows_scripts
+gid=b3cfb276-8197-4fb9-904c-2b1201ae2fff
+store=TEMPLATESTORE
+class=de.espirit.firstspirit.store.access.templatestore.ScriptFolderImpl
+root=de.espirit.firstspirit.store.access.templatestore.ScriptsImpl
+

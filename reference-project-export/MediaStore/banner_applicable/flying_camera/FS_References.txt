@@ -1,0 +1,6 @@
+[self]
+uid=flying_camera
+gid=81af42fd-0d52-4d41-82fb-a024c7022f8b
+uidType=MEDIASTORE_LEAF
+class=de.espirit.firstspirit.store.access.mediastore.MediaImpl
+

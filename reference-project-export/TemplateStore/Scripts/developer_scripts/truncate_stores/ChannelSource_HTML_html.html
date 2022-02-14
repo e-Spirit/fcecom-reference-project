@@ -1,0 +1,17 @@
+import de.espirit.firstspirit.access.store.IDProvider;
+import de.espirit.firstspirit.access.store.Store;
+import de.espirit.firstspirit.agency.OperationAgent;
+import de.espirit.firstspirit.agency.StoreAgent;
+import de.espirit.firstspirit.store.operations.DeleteOperation;
+
+
+storeAgent = context.requireSpecialist(StoreAgent.TYPE);
+
+elements = new ArrayList();
+elements.addAll(storeAgent.getStore(Store.Type.SITESTORE).getChildren().toList());
+elements.addAll(storeAgent.getStore(Store.Type.PAGESTORE).getChildren().toList());
+
+context.requireSpecialist(OperationAgent.TYPE)
+  .getOperation(DeleteOperation.TYPE)
+  .ignoreIncomingReferences(true)
+  .perform(elements.toArray(new IDProvider[0]));

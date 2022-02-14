@@ -1,0 +1,6 @@
+[self]
+uid=many_cameras
+gid=059144c5-157e-4763-8acd-d34f9828cd2c
+uidType=MEDIASTORE_LEAF
+class=de.espirit.firstspirit.store.access.mediastore.MediaImpl
+

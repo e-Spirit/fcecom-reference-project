@@ -1,0 +1,6 @@
+[self]
+uid=magazine
+gid=2b55de18-d678-4f6d-9ce1-bb6c63ef9048
+uidType=MEDIASTORE_LEAF
+class=de.espirit.firstspirit.store.access.mediastore.MediaImpl
+

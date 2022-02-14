@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CMS_MODULE>
+
+  <CMS_INPUT_TEXT name="st_headline" hFill="yes" singleLine="no" useLanguages="yes">
+    <LANGINFOS>
+      <LANGINFO lang="*" label="Headline"/>
+      <LANGINFO lang="DE" label="Überschrift"/>
+    </LANGINFOS>
+  </CMS_INPUT_TEXT>
+
+  <CMS_INPUT_DOM
+    name="st_text"
+    bold="yes"
+    hFill="yes"
+    italic="yes"
+    list="yes"
+    listConfig="style:List style[0:Bullet Points|2:Numbers]"
+    table="no"
+    useLanguages="yes">
+    <FORMATS>
+      <TEMPLATE name="p"/>
+      <TEMPLATE name="h2"/>
+      <TEMPLATE name="h3"/>
+    </FORMATS>
+    <LANGINFOS>
+      <LANGINFO lang="*" label="Text"/>
+    </LANGINFOS>
+    <LINKEDITORS>
+      <LINKEDITOR name="internal_link"/>
+      <LINKEDITOR name="external_link"/>
+    </LINKEDITORS>
+  </CMS_INPUT_DOM>
+
+  <FS_REFERENCE name="st_image" hFill="yes" upload="yes" useLanguages="no">
+    <FILTER>
+      <ALLOW type="picture"/>
+    </FILTER>
+    <LANGINFOS>
+      <LANGINFO lang="*" label="Image"/>
+      <LANGINFO lang="DE" label="Bild"/>
+    </LANGINFOS>
+    <PROJECTS>
+      <LOCAL name=".">
+        <SOURCES>
+          <FOLDER name="root" store="mediastore"/>
+        </SOURCES>
+      </LOCAL>
+    </PROJECTS>
+  </FS_REFERENCE>
+
+  <CMS_INPUT_RADIOBUTTON name="st_variant" hFill="yes" useLanguages="no">
+    <ENTRIES>
+      <ENTRY value="image-left">
+        <LANGINFOS>
+          <LANGINFO lang="*" label="Left"/>
+          <LANGINFO lang="DE" label="Links"/>
+        </LANGINFOS>
+      </ENTRY>
+      <ENTRY value="image-right">
+        <LANGINFOS>
+          <LANGINFO lang="*" label="Right"/>
+          <LANGINFO lang="DE" label="Rechts"/>
+        </LANGINFOS>
+      </ENTRY>
+    </ENTRIES>
+    <LANGINFOS>
+      <LANGINFO lang="*" label="Picture Position"/>
+      <LANGINFO lang="DE" label="Bild Position"/>
+    </LANGINFOS>
+  </CMS_INPUT_RADIOBUTTON>
+
+</CMS_MODULE>

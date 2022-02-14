@@ -1,0 +1,6 @@
+[self]
+uid=Scripts
+gid=9729caea-1f86-48b9-b212-f337b73678ce
+store=TEMPLATESTORE
+class=de.espirit.firstspirit.store.access.templatestore.ScriptsImpl
+

@@ -1,0 +1,6 @@
+[self]
+uid=wf_delete_branch_if_folder
+gid=98d25ee3-c9d3-4f15-88a5-32b933ec6ed2
+uidType=TEMPLATESTORE
+class=de.espirit.firstspirit.store.access.templatestore.ScriptImpl
+

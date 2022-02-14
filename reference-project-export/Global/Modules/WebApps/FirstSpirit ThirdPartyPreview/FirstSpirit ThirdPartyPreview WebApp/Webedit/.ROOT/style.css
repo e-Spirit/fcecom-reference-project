@@ -1,0 +1,4 @@
+.fs-toolbar-undoRedo,
+[data-fs-element-name="History"],
+[data-fs-element-name="RelatedObjects"],
+[data-fs-element-name="Notifications"] { display: none; }

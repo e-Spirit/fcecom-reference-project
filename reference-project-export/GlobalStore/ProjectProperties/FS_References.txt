@@ -1,0 +1,12 @@
+[self]
+uid=/ProjectProperties
+gid=1775ac7c-39e0-49fd-8285-5e7ac76fd717
+store=GLOBALSTORE
+class=de.espirit.firstspirit.store.access.globalstore.ProjectPropertiesImpl
+
+[requiredProjectId]
+uid=project_settings
+gid=4370a4d9-58f8-4fd3-b0b1-688402dc1ee5
+uidType=TEMPLATESTORE
+class=de.espirit.firstspirit.store.access.templatestore.PageTemplateImpl
+

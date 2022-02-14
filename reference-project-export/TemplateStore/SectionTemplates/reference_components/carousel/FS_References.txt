@@ -1,0 +1,12 @@
+[self]
+uid=carousel
+gid=984b221b-0099-4985-ba19-de55b5849257
+uidType=TEMPLATESTORE
+class=de.espirit.firstspirit.store.access.templatestore.SectionTemplateImpl
+
+[optionalId]
+uid=banner
+gid=895f14a7-dba9-4921-af95-ad87892276da
+uidType=TEMPLATESTORE
+class=de.espirit.firstspirit.store.access.templatestore.SectionTemplateImpl
+

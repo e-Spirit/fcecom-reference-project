@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RULES>
+	<!-- media_align -->
+	<RULE>
+		<WITH>
+			<AND>
+				<NOT>
+					<PROPERTY name="EMPTY" source="media"/>
+				</NOT>
+				<OR>
+					<EQUAL>
+						<PROPERTY name="ENTRY" source="media"/>
+						<TEXT>image</TEXT>
+					</EQUAL>
+					<EQUAL>
+						<PROPERTY name="ENTRY" source="media"/>
+						<TEXT>video</TEXT>
+					</EQUAL>
+				</OR>
+			</AND>
+		</WITH>
+		<DO>
+			<PROPERTY name="VISIBLE" source="media_align"/>
+		</DO>
+	</RULE>
+	<!-- image -->
+	<RULE>
+		<WITH>
+			<AND>
+				<NOT>
+					<PROPERTY name="EMPTY" source="media"/>
+				</NOT>
+				<EQUAL>
+					<PROPERTY name="ENTRY" source="media"/>
+					<TEXT>image</TEXT>
+				</EQUAL>
+			</AND>
+		</WITH>
+		<DO>
+			<PROPERTY name="VISIBLE" source="image"/>
+		</DO>
+	</RULE>
+	<!-- videoId -->
+	<RULE>
+		<WITH>
+			<AND>
+				<NOT>
+					<PROPERTY name="EMPTY" source="media"/>
+				</NOT>
+				<EQUAL>
+					<PROPERTY name="ENTRY" source="media"/>
+					<TEXT>video</TEXT>
+				</EQUAL>
+			</AND>
+		</WITH>
+		<DO>
+			<PROPERTY name="VISIBLE" source="videoId"/>
+		</DO>
+	</RULE>
+	<!-- appearance tab -->
+	<RULE>
+		<IF>
+			<NOT>
+				<EQUAL>
+					<PROPERTY name="STORETYPE" source="#global"/>
+					<TEXT>templatestore</TEXT>
+				</EQUAL>
+			</NOT>
+		</IF>
+		<WITH>
+			<FALSE/>
+		</WITH>
+		<DO>
+			<PROPERTY name="VISIBLE" source="#form.tab_appearance"/>
+		</DO>
+	</RULE>
+</RULES>

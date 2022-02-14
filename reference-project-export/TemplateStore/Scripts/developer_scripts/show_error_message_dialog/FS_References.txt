@@ -1,0 +1,6 @@
+[self]
+uid=show_error_message_dialog
+gid=fda370ae-be71-4e2c-b3cf-8a26cac17ac1
+uidType=TEMPLATESTORE
+class=de.espirit.firstspirit.store.access.templatestore.ScriptImpl
+

@@ -1,0 +1,12 @@
+[self]
+uid=landingpage
+gid=16dd8450-fb4f-4bf2-99db-935d1164f2f4
+uidType=TEMPLATESTORE
+class=de.espirit.firstspirit.store.access.templatestore.PageTemplateImpl
+
+[requiredProjectId]
+uid=landingpage
+gid=16dd8450-fb4f-4bf2-99db-935d1164f2f4
+uidType=TEMPLATESTORE
+class=de.espirit.firstspirit.store.access.templatestore.PageTemplateImpl
+

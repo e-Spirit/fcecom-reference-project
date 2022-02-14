@@ -1,0 +1,6 @@
+[self]
+uid=photographers_dream
+gid=81b9f418-26c9-43fc-ab92-6dc16ffca73e
+uidType=MEDIASTORE_LEAF
+class=de.espirit.firstspirit.store.access.mediastore.MediaImpl
+

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDIUM filename="CameraEquipment" id="7710130594941528344" type="pic" uniquedescription="camera_equipment">
+	<LANG displayname="Camera Equipment" language="EN"/>
+	<LANG displayname="Kamera-Ausrüstung" language="DE"/>
+	<PICTURE>
+		<RESOLUTION extension="jpg" height="3178" mimetype="image/jpeg" resolutionid="ORIGINAL" width="3867"/>
+	</PICTURE>
+</MEDIUM>

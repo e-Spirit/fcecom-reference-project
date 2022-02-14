@@ -1,0 +1,6 @@
+[self]
+uid=GlobalContentArea
+gid=0a46d23e-6acb-433e-8433-d682639ad479
+store=GLOBALSTORE
+class=de.espirit.firstspirit.store.access.globalstore.GlobalContentAreaImpl
+

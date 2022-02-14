@@ -1,0 +1,7 @@
+[self]
+uid=/category_pages
+gid=df6feafa-7428-490a-82e2-2bef8398dd9d
+store=TEMPLATESTORE
+class=de.espirit.firstspirit.store.access.templatestore.TemplateFolderImpl
+root=de.espirit.firstspirit.store.access.templatestore.PageTemplatesImpl
+

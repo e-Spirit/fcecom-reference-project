@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RULES>
+	<!-- text -->
+	<RULE>
+		<WITH>
+			<AND>
+				<PROPERTY name="EMPTY" source="st_text"/>
+				<PROPERTY name="INCLUDED" source="#global"/>
+				<PROPERTY name="TRANSLATED" source="#global"/>
+			</AND>
+		</WITH>
+		<DO>
+			<NOT>
+				<VALIDATION scope="RELEASE">
+					<PROPERTY name="VALID" source="st_text"/>
+					<MESSAGE lang="*" text="This form element must not be empty!"/>
+					<MESSAGE lang="*" text="Diese Eingabekomponente darf nicht leer sein!"/>
+				</VALIDATION>
+			</NOT>
+		</DO>
+	</RULE>
+	<!-- variant -->
+	<RULE>
+		<WITH>
+			<PROPERTY name="EMPTY" source="st_image"/>
+		</WITH>
+		<DO>
+			<NOT>
+				<PROPERTY name="VISIBLE" source="variant"/>
+			</NOT>
+		</DO>
+	</RULE>
+</RULES>

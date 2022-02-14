@@ -1,0 +1,7 @@
+[self]
+uid=/content_pages
+gid=14da0e9e-785a-4f38-8d15-4f6f84b881af
+store=TEMPLATESTORE
+class=de.espirit.firstspirit.store.access.templatestore.TemplateFolderImpl
+root=de.espirit.firstspirit.store.access.templatestore.PageTemplatesImpl
+

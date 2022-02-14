@@ -1,0 +1,6 @@
+[self]
+uid=female_model
+gid=570723a1-bdfd-4665-8845-e4393b155f0a
+uidType=MEDIASTORE_LEAF
+class=de.espirit.firstspirit.store.access.mediastore.MediaImpl
+

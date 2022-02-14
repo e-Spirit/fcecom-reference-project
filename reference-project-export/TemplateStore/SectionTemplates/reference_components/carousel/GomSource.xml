@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CMS_MODULE>
+
+  <FS_CATALOG name="st_items" useLanguages="no" viewMode="details">
+    <LANGINFOS>
+      <LANGINFO lang="*" label="Banners"/>
+      <LANGINFO lang="DE" label="Banner"/>
+    </LANGINFOS>
+    <TEMPLATES type="section">
+      <TEMPLATE uid="banner"/>
+    </TEMPLATES>
+  </FS_CATALOG>
+
+  <CMS_INPUT_RADIOBUTTON name="st_autoplay" gridWidth="4" hFill="yes" useLanguages="no">
+    <ENTRIES>
+      <ENTRY value="">
+        <LANGINFOS>
+          <LANGINFO lang="*" label="None"/>
+          <LANGINFO lang="DE" label="Kein"/>
+        </LANGINFOS>
+      </ENTRY>
+      <ENTRY value="3000">
+        <LANGINFOS>
+          <LANGINFO lang="*" label="3s"/>
+        </LANGINFOS>
+      </ENTRY>
+      <ENTRY value="5000">
+        <LANGINFOS>
+          <LANGINFO lang="*" label="5s"/>
+        </LANGINFOS>
+      </ENTRY>
+      <ENTRY value="8000">
+        <LANGINFOS>
+          <LANGINFO lang="*" label="8s"/>
+        </LANGINFOS>
+      </ENTRY>
+    </ENTRIES>
+    <LANGINFOS>
+      <LANGINFO lang="*" label="Autoplay Interval"/>
+      <LANGINFO lang="DE" label="Automatisches Interval"/>
+    </LANGINFOS>
+  </CMS_INPUT_RADIOBUTTON>
+
+</CMS_MODULE>

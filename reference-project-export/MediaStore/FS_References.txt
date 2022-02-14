@@ -1,0 +1,17 @@
+[self]
+uid=root
+gid=c56d792e-e06b-4216-aeb8-0cfb6d42adb2
+uidType=MEDIASTORE_FOLDER
+class=de.espirit.firstspirit.store.access.mediastore.MediaStoreRootImpl
+
+[optionalProjectId]
+uid=delete
+gid=960fedf7-010b-47da-a766-b741ae2e5077
+uidType=TEMPLATESTORE
+class=de.espirit.firstspirit.store.access.templatestore.WorkflowImpl
+
+uid=release
+gid=e4202c2e-b35a-457b-b78a-39fc534f0e32
+uidType=TEMPLATESTORE
+class=de.espirit.firstspirit.store.access.templatestore.WorkflowImpl
+

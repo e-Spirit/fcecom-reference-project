@@ -1,0 +1,7 @@
+[self]
+uid=/reference_components
+gid=5e17e01b-6061-4dee-8804-36aa6a5ab323
+store=TEMPLATESTORE
+class=de.espirit.firstspirit.store.access.templatestore.TemplateFolderImpl
+root=de.espirit.firstspirit.store.access.templatestore.SectionTemplatesImpl
+

@@ -1,0 +1,6 @@
+[self]
+uid=external_link
+gid=1fff87f6-1031-4a09-8670-2d12e5b32393
+uidType=TEMPLATESTORE_LINKTEMPLATE
+class=de.espirit.firstspirit.store.access.templatestore.LinkTemplateImpl
+

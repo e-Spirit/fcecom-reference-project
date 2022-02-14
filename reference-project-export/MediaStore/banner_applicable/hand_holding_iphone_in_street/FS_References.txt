@@ -1,0 +1,6 @@
+[self]
+uid=hand_holding_iphone_in_street
+gid=c82d225b-67a1-4581-a2d5-c1e1741c4901
+uidType=MEDIASTORE_LEAF
+class=de.espirit.firstspirit.store.access.mediastore.MediaImpl
+

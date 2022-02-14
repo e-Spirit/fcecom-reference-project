@@ -1,0 +1,361 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OBJECT class="java.util.ArrayList">
+	<OBJECT class="de.espirit.firstspirit.server.scheduler.ScheduleEntryDTO">
+		<FIELD name="_active" type="boolean">true</FIELD>
+		<FIELD name="_allowInteractiveExecution" type="boolean">true</FIELD>
+		<FIELD name="_allowParallelExecution" type="boolean">false</FIELD>
+		<FIELD name="_description"><NULL/><!-- class java.lang.String --></FIELD>
+		<FIELD name="_email"><NULL/><!-- class java.lang.String --></FIELD>
+		<FIELD name="_folderName"><NULL/><!-- class java.lang.String --></FIELD>
+		<FIELD name="_groupIds">
+			<OBJECT class="java.util.ArrayList">
+			</OBJECT>
+		</FIELD>
+		<FIELD name="_id" type="long">4892590887647611367</FIELD>
+		<FIELD name="_name">
+			<OBJECT class="java.lang.String">generate full</OBJECT>
+		</FIELD>
+		<FIELD name="_parallelExecutionMode" type="int">0</FIELD>
+		<FIELD name="_projectId" type="long">-5802341919937733185</FIELD>
+		<FIELD name="_schedule">
+			<OBJECT class="de.espirit.firstspirit.server.scheduler.FixedExecutionScheduleDTO">
+				<FIELD name="_executionTime"><NULL/><!-- class java.util.Date --></FIELD>
+				<FIELD name="_manual" type="boolean">true</FIELD>
+			</OBJECT>
+		</FIELD>
+		<FIELD name="_system" type="boolean">true</FIELD>
+		<FIELD name="_tasks">
+			<OBJECT class="java.util.ArrayList">
+				<OBJECT class="de.espirit.firstspirit.server.scheduler.GenerateTaskDTO">
+					<FIELD name="_active" type="boolean">true</FIELD>
+					<FIELD name="_cancelScheduleWhenNoChanges" type="boolean">true</FIELD>
+					<FIELD name="_clusterNodeName"><NULL/><!-- class java.lang.String --></FIELD>
+					<FIELD name="_createMediaFiles" type="boolean">true</FIELD>
+					<FIELD name="_createTag" type="boolean">true</FIELD>
+					<FIELD name="_deleteDirectory" type="boolean">true</FIELD>
+					<FIELD name="_description"><NULL/><!-- class java.lang.String --></FIELD>
+					<FIELD name="_entityEntries"><NULL/><!-- interface java.util.Set --></FIELD>
+					<FIELD name="_executeInFault" type="boolean">false</FIELD>
+					<FIELD name="_executeOnClusterNode" type="boolean">false</FIELD>
+					<FIELD name="_fatalErrorThreshold" type="long">0</FIELD>
+					<FIELD name="_generationSource"><NULL/><!-- class de.espirit.firstspirit.access.schedule.GenerateTask$GenerationSource --></FIELD>
+					<FIELD name="_isDefinableByUser" type="boolean">false</FIELD>
+					<FIELD name="_lang2TemplateSetActiveMap">
+						<OBJECT class="java.util.HashMap">
+							<OBJECT class="java.lang.String">DE</OBJECT>
+							<OBJECT class="java.util.HashMap">
+								<OBJECT class="java.lang.Long">9062318847741885912</OBJECT>
+								<OBJECT class="java.lang.Boolean">true</OBJECT>
+							</OBJECT>
+						</OBJECT>
+					</FIELD>
+					<FIELD name="_mediaStartnodes"><NULL/><!-- class [J --></FIELD>
+					<FIELD name="_name">
+						<OBJECT class="java.lang.String">generate</OBJECT>
+					</FIELD>
+					<FIELD name="_parallel" type="boolean">false</FIELD>
+					<FIELD name="_startnodes"><NULL/><!-- class [J --></FIELD>
+					<FIELD name="_successCondition">
+						<OBJECT class="de.espirit.firstspirit.access.schedule.GenerateTask$SuccessCondition">MEET_THRESHOLD</OBJECT>
+					</FIELD>
+					<FIELD name="_successfulCondition" type="int">0</FIELD>
+					<FIELD name="_templateId" type="long">-1</FIELD>
+					<FIELD name="_type" type="int">0</FIELD>
+					<FIELD name="_urlCreator"><NULL/><!-- class java.lang.String --></FIELD>
+					<FIELD name="_urlCreatorClassName"><NULL/><!-- class java.lang.String --></FIELD>
+					<FIELD name="_urlPrefix"><NULL/><!-- class java.lang.String --></FIELD>
+					<FIELD name="_useAclDb" type="boolean">true</FIELD>
+					<FIELD name="_variables"><NULL/><!-- interface java.util.Map --></FIELD>
+					<FIELD name="_warningThreshold" type="long">0</FIELD>
+				</OBJECT>
+			</OBJECT>
+		</FIELD>
+		<FIELD name="_userIds">
+			<OBJECT class="java.util.ArrayList">
+			</OBJECT>
+		</FIELD>
+	</OBJECT>
+	<OBJECT class="de.espirit.firstspirit.server.scheduler.ScheduleEntryDTO">
+		<FIELD name="_active" type="boolean">true</FIELD>
+		<FIELD name="_allowInteractiveExecution" type="boolean">true</FIELD>
+		<FIELD name="_allowParallelExecution" type="boolean">false</FIELD>
+		<FIELD name="_description"><NULL/><!-- class java.lang.String --></FIELD>
+		<FIELD name="_email"><NULL/><!-- class java.lang.String --></FIELD>
+		<FIELD name="_folderName"><NULL/><!-- class java.lang.String --></FIELD>
+		<FIELD name="_groupIds">
+			<OBJECT class="java.util.ArrayList">
+			</OBJECT>
+		</FIELD>
+		<FIELD name="_id" type="long">4002868699116354360</FIELD>
+		<FIELD name="_name">
+			<OBJECT class="java.lang.String">generate partly</OBJECT>
+		</FIELD>
+		<FIELD name="_parallelExecutionMode" type="int">0</FIELD>
+		<FIELD name="_projectId" type="long">-5802341919937733185</FIELD>
+		<FIELD name="_schedule">
+			<OBJECT class="de.espirit.firstspirit.server.scheduler.FixedExecutionScheduleDTO">
+				<FIELD name="_executionTime"><NULL/><!-- class java.util.Date --></FIELD>
+				<FIELD name="_manual" type="boolean">true</FIELD>
+			</OBJECT>
+		</FIELD>
+		<FIELD name="_system" type="boolean">true</FIELD>
+		<FIELD name="_tasks">
+			<OBJECT class="java.util.ArrayList">
+				<OBJECT class="de.espirit.firstspirit.server.scheduler.GenerateTaskDTO">
+					<FIELD name="_active" type="boolean">true</FIELD>
+					<FIELD name="_cancelScheduleWhenNoChanges" type="boolean">true</FIELD>
+					<FIELD name="_clusterNodeName"><NULL/><!-- class java.lang.String --></FIELD>
+					<FIELD name="_createMediaFiles" type="boolean">true</FIELD>
+					<FIELD name="_createTag" type="boolean">true</FIELD>
+					<FIELD name="_deleteDirectory" type="boolean">false</FIELD>
+					<FIELD name="_description"><NULL/><!-- class java.lang.String --></FIELD>
+					<FIELD name="_entityEntries"><NULL/><!-- interface java.util.Set --></FIELD>
+					<FIELD name="_executeInFault" type="boolean">false</FIELD>
+					<FIELD name="_executeOnClusterNode" type="boolean">false</FIELD>
+					<FIELD name="_fatalErrorThreshold" type="long">0</FIELD>
+					<FIELD name="_generationSource"><NULL/><!-- class de.espirit.firstspirit.access.schedule.GenerateTask$GenerationSource --></FIELD>
+					<FIELD name="_isDefinableByUser" type="boolean">true</FIELD>
+					<FIELD name="_lang2TemplateSetActiveMap">
+						<OBJECT class="java.util.HashMap">
+							<OBJECT class="java.lang.String">DE</OBJECT>
+							<OBJECT class="java.util.HashMap">
+								<OBJECT class="java.lang.Long">9062318847741885912</OBJECT>
+								<OBJECT class="java.lang.Boolean">true</OBJECT>
+							</OBJECT>
+						</OBJECT>
+					</FIELD>
+					<FIELD name="_mediaStartnodes"><NULL/><!-- class [J --></FIELD>
+					<FIELD name="_name">
+						<OBJECT class="java.lang.String">generate</OBJECT>
+					</FIELD>
+					<FIELD name="_parallel" type="boolean">false</FIELD>
+					<FIELD name="_startnodes"><NULL/><!-- class [J --></FIELD>
+					<FIELD name="_successCondition">
+						<OBJECT class="de.espirit.firstspirit.access.schedule.GenerateTask$SuccessCondition">MEET_THRESHOLD</OBJECT>
+					</FIELD>
+					<FIELD name="_successfulCondition" type="int">0</FIELD>
+					<FIELD name="_templateId" type="long">-1</FIELD>
+					<FIELD name="_type" type="int">1</FIELD>
+					<FIELD name="_urlCreator"><NULL/><!-- class java.lang.String --></FIELD>
+					<FIELD name="_urlCreatorClassName"><NULL/><!-- class java.lang.String --></FIELD>
+					<FIELD name="_urlPrefix"><NULL/><!-- class java.lang.String --></FIELD>
+					<FIELD name="_useAclDb" type="boolean">true</FIELD>
+					<FIELD name="_variables"><NULL/><!-- interface java.util.Map --></FIELD>
+					<FIELD name="_warningThreshold" type="long">0</FIELD>
+				</OBJECT>
+			</OBJECT>
+		</FIELD>
+		<FIELD name="_userIds">
+			<OBJECT class="java.util.ArrayList">
+			</OBJECT>
+		</FIELD>
+	</OBJECT>
+	<OBJECT class="de.espirit.firstspirit.server.scheduler.ScheduleEntryDTO">
+		<FIELD name="_active" type="boolean">true</FIELD>
+		<FIELD name="_allowInteractiveExecution" type="boolean">true</FIELD>
+		<FIELD name="_allowParallelExecution" type="boolean">false</FIELD>
+		<FIELD name="_description"><NULL/><!-- class java.lang.String --></FIELD>
+		<FIELD name="_email"><NULL/><!-- class java.lang.String --></FIELD>
+		<FIELD name="_folderName"><NULL/><!-- class java.lang.String --></FIELD>
+		<FIELD name="_groupIds">
+			<OBJECT class="java.util.ArrayList">
+			</OBJECT>
+		</FIELD>
+		<FIELD name="_id" type="long">3446238164524851579</FIELD>
+		<FIELD name="_name">
+			<OBJECT class="java.lang.String">Repair references</OBJECT>
+		</FIELD>
+		<FIELD name="_parallelExecutionMode" type="int">0</FIELD>
+		<FIELD name="_projectId" type="long">-5802341919937733185</FIELD>
+		<FIELD name="_schedule">
+			<OBJECT class="de.espirit.firstspirit.server.scheduler.FixedExecutionScheduleDTO">
+				<FIELD name="_executionTime"><NULL/><!-- class java.util.Date --></FIELD>
+				<FIELD name="_manual" type="boolean">true</FIELD>
+			</OBJECT>
+		</FIELD>
+		<FIELD name="_system" type="boolean">true</FIELD>
+		<FIELD name="_tasks">
+			<OBJECT class="java.util.ArrayList">
+				<OBJECT class="de.espirit.firstspirit.server.scheduler.RepairReferencesTaskDTO">
+					<FIELD name="_active" type="boolean">true</FIELD>
+					<FIELD name="_clusterNodeName"><NULL/><!-- class java.lang.String --></FIELD>
+					<FIELD name="_description"><NULL/><!-- class java.lang.String --></FIELD>
+					<FIELD name="_executeInFault" type="boolean">false</FIELD>
+					<FIELD name="_executeOnClusterNode" type="boolean">false</FIELD>
+					<FIELD name="_name">
+						<OBJECT class="java.lang.String">Repair references</OBJECT>
+					</FIELD>
+					<FIELD name="_parallel" type="boolean">false</FIELD>
+					<FIELD name="_templateId" type="long">-1</FIELD>
+				</OBJECT>
+			</OBJECT>
+		</FIELD>
+		<FIELD name="_userIds">
+			<OBJECT class="java.util.ArrayList">
+			</OBJECT>
+		</FIELD>
+	</OBJECT>
+	<OBJECT class="de.espirit.firstspirit.server.scheduler.ScheduleEntryDTO">
+		<FIELD name="_active" type="boolean">true</FIELD>
+		<FIELD name="_allowInteractiveExecution" type="boolean">true</FIELD>
+		<FIELD name="_allowParallelExecution" type="boolean">false</FIELD>
+		<FIELD name="_description"><NULL/><!-- class java.lang.String --></FIELD>
+		<FIELD name="_email"><NULL/><!-- class java.lang.String --></FIELD>
+		<FIELD name="_folderName"><NULL/><!-- class java.lang.String --></FIELD>
+		<FIELD name="_groupIds">
+			<OBJECT class="java.util.ArrayList">
+			</OBJECT>
+		</FIELD>
+		<FIELD name="_id" type="long">5157408797701859594</FIELD>
+		<FIELD name="_name">
+			<OBJECT class="java.lang.String">Rebuild search index</OBJECT>
+		</FIELD>
+		<FIELD name="_parallelExecutionMode" type="int">0</FIELD>
+		<FIELD name="_projectId" type="long">-5802341919937733185</FIELD>
+		<FIELD name="_schedule">
+			<OBJECT class="de.espirit.firstspirit.server.scheduler.FixedExecutionScheduleDTO">
+				<FIELD name="_executionTime"><NULL/><!-- class java.util.Date --></FIELD>
+				<FIELD name="_manual" type="boolean">true</FIELD>
+			</OBJECT>
+		</FIELD>
+		<FIELD name="_system" type="boolean">true</FIELD>
+		<FIELD name="_tasks">
+			<OBJECT class="java.util.ArrayList">
+				<OBJECT class="de.espirit.firstspirit.server.scheduler.RebuildIndexTaskDTO">
+					<FIELD name="_active" type="boolean">true</FIELD>
+					<FIELD name="_clusterNodeName"><NULL/><!-- class java.lang.String --></FIELD>
+					<FIELD name="_description"><NULL/><!-- class java.lang.String --></FIELD>
+					<FIELD name="_executeInFault" type="boolean">false</FIELD>
+					<FIELD name="_executeOnClusterNode" type="boolean">false</FIELD>
+					<FIELD name="_name">
+						<OBJECT class="java.lang.String">Rebuild search index</OBJECT>
+					</FIELD>
+					<FIELD name="_parallel" type="boolean">false</FIELD>
+					<FIELD name="_templateId" type="long">-1</FIELD>
+				</OBJECT>
+			</OBJECT>
+		</FIELD>
+		<FIELD name="_userIds">
+			<OBJECT class="java.util.ArrayList">
+			</OBJECT>
+		</FIELD>
+	</OBJECT>
+	<OBJECT class="de.espirit.firstspirit.server.scheduler.ScheduleEntryDTO">
+		<FIELD name="_active" type="boolean">true</FIELD>
+		<FIELD name="_allowInteractiveExecution" type="boolean">false</FIELD>
+		<FIELD name="_allowParallelExecution" type="boolean">false</FIELD>
+		<FIELD name="_description"><NULL/><!-- class java.lang.String --></FIELD>
+		<FIELD name="_email"><NULL/><!-- class java.lang.String --></FIELD>
+		<FIELD name="_folderName"><NULL/><!-- class java.lang.String --></FIELD>
+		<FIELD name="_groupIds">
+			<OBJECT class="java.util.ArrayList">
+			</OBJECT>
+		</FIELD>
+		<FIELD name="_id" type="long">-1846148959583438904</FIELD>
+		<FIELD name="_name">
+			<OBJECT class="java.lang.String">CaaS Connect Preview Generation</OBJECT>
+		</FIELD>
+		<FIELD name="_parallelExecutionMode" type="int">0</FIELD>
+		<FIELD name="_projectId" type="long">-5802341919937733185</FIELD>
+		<FIELD name="_schedule"><NULL/><!-- class de.espirit.firstspirit.server.scheduler.ExecutionScheduleDTO --></FIELD>
+		<FIELD name="_system" type="boolean">false</FIELD>
+		<FIELD name="_tasks">
+			<OBJECT class="java.util.ArrayList">
+				<OBJECT class="de.espirit.firstspirit.server.scheduler.ScriptTaskDTO">
+					<FIELD name="_active" type="boolean">true</FIELD>
+					<FIELD name="_clusterNodeName"><NULL/><!-- class java.lang.String --></FIELD>
+					<FIELD name="_description"><NULL/><!-- class java.lang.String --></FIELD>
+					<FIELD name="_executeInFault" type="boolean">false</FIELD>
+					<FIELD name="_executeOnClusterNode" type="boolean">false</FIELD>
+					<FIELD name="_name">
+						<OBJECT class="java.lang.String">CaaS Connect Preview Generation</OBJECT>
+					</FIELD>
+					<FIELD name="_parallel" type="boolean">false</FIELD>
+					<FIELD name="_parameters">
+						<OBJECT class="java.util.HashMap">
+							<OBJECT class="java.lang.String">replicationMode</OBJECT>
+							<OBJECT class="java.lang.String">DELTA</OBJECT>
+							<OBJECT class="java.lang.String">useRelease</OBJECT>
+							<OBJECT class="java.lang.String">false</OBJECT>
+						</OBJECT>
+					</FIELD>
+					<FIELD name="_properties">
+						<OBJECT class="java.util.Properties">
+						</OBJECT>
+					</FIELD>
+					<FIELD name="_scriptType">
+						<OBJECT class="de.espirit.firstspirit.access.schedule.ScriptTask$Type">extFIRSTspirit</OBJECT>
+					</FIELD>
+					<FIELD name="_source">
+						<OBJECT class="java.lang.String">#! executable-class
+com.espirit.caasconnect.executable.CaasConnectPipelineExecutable</OBJECT>
+					</FIELD>
+					<FIELD name="_templateId" type="long">-1</FIELD>
+				</OBJECT>
+			</OBJECT>
+		</FIELD>
+		<FIELD name="_userIds">
+			<OBJECT class="java.util.ArrayList">
+			</OBJECT>
+		</FIELD>
+	</OBJECT>
+	<OBJECT class="de.espirit.firstspirit.server.scheduler.ScheduleEntryDTO">
+		<FIELD name="_active" type="boolean">true</FIELD>
+		<FIELD name="_allowInteractiveExecution" type="boolean">false</FIELD>
+		<FIELD name="_allowParallelExecution" type="boolean">false</FIELD>
+		<FIELD name="_description"><NULL/><!-- class java.lang.String --></FIELD>
+		<FIELD name="_email"><NULL/><!-- class java.lang.String --></FIELD>
+		<FIELD name="_folderName"><NULL/><!-- class java.lang.String --></FIELD>
+		<FIELD name="_groupIds">
+			<OBJECT class="java.util.ArrayList">
+			</OBJECT>
+		</FIELD>
+		<FIELD name="_id" type="long">-3550426906020696021</FIELD>
+		<FIELD name="_name">
+			<OBJECT class="java.lang.String">CaaS Connect Release Generation</OBJECT>
+		</FIELD>
+		<FIELD name="_parallelExecutionMode" type="int">0</FIELD>
+		<FIELD name="_projectId" type="long">-5802341919937733185</FIELD>
+		<FIELD name="_schedule"><NULL/><!-- class de.espirit.firstspirit.server.scheduler.ExecutionScheduleDTO --></FIELD>
+		<FIELD name="_system" type="boolean">false</FIELD>
+		<FIELD name="_tasks">
+			<OBJECT class="java.util.ArrayList">
+				<OBJECT class="de.espirit.firstspirit.server.scheduler.ScriptTaskDTO">
+					<FIELD name="_active" type="boolean">true</FIELD>
+					<FIELD name="_clusterNodeName"><NULL/><!-- class java.lang.String --></FIELD>
+					<FIELD name="_description"><NULL/><!-- class java.lang.String --></FIELD>
+					<FIELD name="_executeInFault" type="boolean">false</FIELD>
+					<FIELD name="_executeOnClusterNode" type="boolean">false</FIELD>
+					<FIELD name="_name">
+						<OBJECT class="java.lang.String">CaaS Connect Release Generation</OBJECT>
+					</FIELD>
+					<FIELD name="_parallel" type="boolean">false</FIELD>
+					<FIELD name="_parameters">
+						<OBJECT class="java.util.HashMap">
+							<OBJECT class="java.lang.String">replicationMode</OBJECT>
+							<OBJECT class="java.lang.String">DELTA</OBJECT>
+							<OBJECT class="java.lang.String">useRelease</OBJECT>
+							<OBJECT class="java.lang.String">true</OBJECT>
+						</OBJECT>
+					</FIELD>
+					<FIELD name="_properties">
+						<OBJECT class="java.util.Properties">
+						</OBJECT>
+					</FIELD>
+					<FIELD name="_scriptType">
+						<OBJECT class="de.espirit.firstspirit.access.schedule.ScriptTask$Type">extFIRSTspirit</OBJECT>
+					</FIELD>
+					<FIELD name="_source">
+						<OBJECT class="java.lang.String">#! executable-class
+com.espirit.caasconnect.executable.CaasConnectPipelineExecutable</OBJECT>
+					</FIELD>
+					<FIELD name="_templateId" type="long">-1</FIELD>
+				</OBJECT>
+			</OBJECT>
+		</FIELD>
+		<FIELD name="_userIds">
+			<OBJECT class="java.util.ArrayList">
+			</OBJECT>
+		</FIELD>
+	</OBJECT>
+</OBJECT>

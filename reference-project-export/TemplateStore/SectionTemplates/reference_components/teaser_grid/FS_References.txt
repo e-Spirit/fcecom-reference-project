@@ -1,0 +1,12 @@
+[self]
+uid=teaser_grid
+gid=33ef4cd2-f52b-401d-83c9-a2f53baaf1e2
+uidType=TEMPLATESTORE
+class=de.espirit.firstspirit.store.access.templatestore.SectionTemplateImpl
+
+[optionalId]
+uid=teaser_item
+gid=67085735-48a2-46e7-a0c7-0a72a33d6f9f
+uidType=TEMPLATESTORE
+class=de.espirit.firstspirit.store.access.templatestore.SectionTemplateImpl
+

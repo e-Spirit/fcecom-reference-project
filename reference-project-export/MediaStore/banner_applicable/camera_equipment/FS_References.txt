@@ -1,0 +1,6 @@
+[self]
+uid=camera_equipment
+gid=3b6601b1-5780-4c0f-b8e6-35f852e2a31b
+uidType=MEDIASTORE_LEAF
+class=de.espirit.firstspirit.store.access.mediastore.MediaImpl
+

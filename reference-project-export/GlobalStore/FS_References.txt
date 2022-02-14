@@ -1,0 +1,6 @@
+[self]
+uid=root
+gid=cc6ed0cc-743a-4c54-9cac-e22df47dd164
+uidType=GLOBALSTORE
+class=de.espirit.firstspirit.store.access.globalstore.GlobalStoreRootImpl
+

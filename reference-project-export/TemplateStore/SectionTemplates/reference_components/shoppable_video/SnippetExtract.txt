@@ -1,0 +1,1 @@
+if (!st_videoId.isEmpty, st_videoId.snippets[0].header)

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OBJECT class="java.util.ArrayList">
+	<OBJECT class="de.espirit.firstspirit.server.projectmanagement.ResolutionDTO">
+		<FIELD name="_descriptions"><NULL/><!-- interface java.util.Map --></FIELD>
+		<FIELD name="_keepAspectRatio" type="boolean">false</FIELD>
+		<FIELD name="_names"><NULL/><!-- interface java.util.Map --></FIELD>
+		<FIELD name="_smartCropping" type="boolean">false</FIELD>
+		<FIELD name="_tags">
+			<OBJECT class="java.util.TreeSet">
+			</OBJECT>
+		</FIELD>
+		<FIELD name="m_description">
+			<OBJECT class="java.lang.String"></OBJECT>
+		</FIELD>
+		<FIELD name="m_height" type="int">0</FIELD>
+		<FIELD name="m_name">
+			<OBJECT class="java.lang.String">ORIGINAL</OBJECT>
+		</FIELD>
+		<FIELD name="m_width" type="int">0</FIELD>
+	</OBJECT>
+	<OBJECT class="de.espirit.firstspirit.server.projectmanagement.ResolutionDTO">
+		<FIELD name="_descriptions">
+			<OBJECT class="java.util.HashMap">
+				<OBJECT class="java.lang.String">DE</OBJECT>
+				<OBJECT class="java.lang.String"></OBJECT>
+			</OBJECT>
+		</FIELD>
+		<FIELD name="_keepAspectRatio" type="boolean">false</FIELD>
+		<FIELD name="_names">
+			<OBJECT class="java.util.HashMap">
+				<OBJECT class="java.lang.String">DE</OBJECT>
+				<OBJECT class="java.lang.String">cropped</OBJECT>
+			</OBJECT>
+		</FIELD>
+		<FIELD name="_smartCropping" type="boolean">true</FIELD>
+		<FIELD name="_tags">
+			<OBJECT class="java.util.TreeSet">
+			</OBJECT>
+		</FIELD>
+		<FIELD name="m_description">
+			<OBJECT class="java.lang.String">croppable</OBJECT>
+		</FIELD>
+		<FIELD name="m_height" type="int">0</FIELD>
+		<FIELD name="m_name">
+			<OBJECT class="java.lang.String">cropped</OBJECT>
+		</FIELD>
+		<FIELD name="m_width" type="int">0</FIELD>
+	</OBJECT>
+</OBJECT>

@@ -1,0 +1,7 @@
+[self]
+uid=/product_pages
+gid=24fb46fb-4511-4217-a38a-a213c1a08e4c
+store=TEMPLATESTORE
+class=de.espirit.firstspirit.store.access.templatestore.TemplateFolderImpl
+root=de.espirit.firstspirit.store.access.templatestore.PageTemplatesImpl
+
