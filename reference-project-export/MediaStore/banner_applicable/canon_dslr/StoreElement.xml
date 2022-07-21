@@ -1,8 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<MEDIUM filename="CanonDSLR" id="-6238461926322986002" type="pic" uniquedescription="canon_dslr">
+<MEDIUM filename="CanonDSLR" id="-6238461926322986002" languagedependent="1" type="pic" uniquedescription="canon_dslr">
 	<LANG displayname="Canon DSLR" language="DE"/>
 	<LANG displayname="Canon DSLR" language="EN"/>
-	<PICTURE>
+	<PICTURE language="DE">
+		<RESOLUTION extension="jpg" height="3984" mimetype="image/jpeg" resolutionid="ORIGINAL" width="2656"/>
+	</PICTURE>
+	<PICTURE language="EN">
 		<RESOLUTION extension="jpg" height="3984" mimetype="image/jpeg" resolutionid="ORIGINAL" width="2656"/>
 	</PICTURE>
 </MEDIUM>

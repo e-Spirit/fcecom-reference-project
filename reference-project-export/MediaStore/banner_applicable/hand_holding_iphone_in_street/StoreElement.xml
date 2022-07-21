@@ -1,8 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<MEDIUM filename="HandHoldingiPhoneInStreet" id="7152251770702657037" type="pic" uniquedescription="hand_holding_iphone_in_street">
+<MEDIUM filename="HandHoldingiPhoneInStreet" id="7152251770702657037" languagedependent="1" type="pic" uniquedescription="hand_holding_iphone_in_street">
 	<LANG displayname="Hand Holding iPhone in Street" language="EN"/>
 	<LANG displayname="Hand mit iPhone vor Straße" language="DE"/>
-	<PICTURE>
+	<PICTURE language="DE">
+		<RESOLUTION extension="jpg" height="4418" mimetype="image/jpeg" resolutionid="ORIGINAL" width="3456"/>
+	</PICTURE>
+	<PICTURE language="EN">
 		<RESOLUTION extension="jpg" height="4418" mimetype="image/jpeg" resolutionid="ORIGINAL" width="3456"/>
 	</PICTURE>
 </MEDIUM>

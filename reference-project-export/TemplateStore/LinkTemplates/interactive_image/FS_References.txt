@@ -1,0 +1,7 @@
+[self]
+uid=/interactive_image
+gid=78afa074-a1bc-4845-8e15-88bb35bb2cb4
+store=TEMPLATESTORE
+class=de.espirit.firstspirit.store.access.templatestore.TemplateFolderImpl
+root=de.espirit.firstspirit.store.access.templatestore.LinkTemplatesImpl
+

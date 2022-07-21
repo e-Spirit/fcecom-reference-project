@@ -1,11 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TEMPLATE comment="" filename="product" hidden="1" id="5052548482703082784" templateid="-2129345205571441505" type="page">
-	<ALLOWED enabled="sub_content" templateid="-4873704247383719126"/>
+	<ALLOWED enabled="stage" templateid="-2776294439780559659"/>
+	<ALLOWED enabled="stage" templateid="-7623187676376246123"/>
 	<ALLOWED enabled="sup_content,sub_content" templateid="-1889781886281073692"/>
-	<ALLOWED enabled="sup_content,sub_content" templateid="-2776294439780559659"/>
+	<ALLOWED enabled="sup_content,sub_content" templateid="-8969919162802954099"/>
+	<ALLOWED enabled="sup_content,sub_content" templateid="3857720796743261453"/>
 	<EXTENSION file="html" link="json" replaceable="false" templateSet="9062318847741885912"/>
 	<LANG displayname="Product" language="EN"/>
 	<LANG displayname="Produkt" language="DE"/>
+	<TEMPLATEBODY name="stage">
+		<LANG displayname="" language="EN"/>
+		<LANG language="DE"/>
+	</TEMPLATEBODY>
 	<TEMPLATEBODY name="sup_content">
 		<LANG language="DE"/>
 		<LANG language="EN"/>

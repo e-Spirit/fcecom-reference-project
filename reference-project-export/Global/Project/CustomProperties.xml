@@ -1,3 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <OBJECT class="java.util.HashMap">
+	<OBJECT class="java.lang.String">NavigationClientService-ProjectCustomPropertiesScope</OBJECT>
+	<OBJECT class="java.util.HashMap">
+		<OBJECT class="java.lang.String">errorBehaviour</OBJECT>
+		<OBJECT class="java.lang.String">{"ignoreErrors":{"PREVIEW":false,"RELEASE":false}}</OBJECT>
+		<OBJECT class="java.lang.String">seoRouteUrlFactoryConfig</OBJECT>
+		<OBJECT class="java.lang.String">{"factoryName":"Advanced URLs","urlFactorySettings":{},"prefix":""}</OBJECT>
+		<OBJECT class="java.lang.String">urlFactoryConfig</OBJECT>
+		<OBJECT class="java.lang.String">{"factoryName":"CaaS Connect UrlFactory","urlFactorySettings":{},"prefix":""}</OBJECT>
+	</OBJECT>
 </OBJECT>

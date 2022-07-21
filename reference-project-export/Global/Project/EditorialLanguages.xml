@@ -11,7 +11,7 @@
 		<FIELD name="ignoreValidation" type="boolean">false</FIELD>
 		<FIELD name="isMasterLanguage" type="boolean">true</FIELD>
 		<FIELD name="locale">
-			<OBJECT class="java.util.Locale">en_US</OBJECT>
+			<OBJECT class="java.util.Locale">en_GB</OBJECT>
 		</FIELD>
 		<FIELD name="m_htmlEncoding">
 			<OBJECT class="java.lang.String">UTF-8</OBJECT>

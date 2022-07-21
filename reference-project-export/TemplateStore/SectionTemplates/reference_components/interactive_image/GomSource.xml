@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CMS_MODULE>
+
+  <CMS_INPUT_TEXT name="st_headline">
+    <LANGINFOS>
+      <LANGINFO lang="*" label="Headline"/>
+      <LANGINFO lang="DE" label="Überschrift"/>
+    </LANGINFOS>
+  </CMS_INPUT_TEXT>
+
+  <CMS_INPUT_IMAGEMAP name="st_interactive_image" simpleMode="yes" useLanguages="no">
+    <LANGINFOS>
+      <LANGINFO lang="*" label="Interactive Image"/>
+      <LANGINFO lang="DE" label="Interaktives Bild"/>
+    </LANGINFOS>
+    <LINKEDITORS>
+      <LINKEDITOR name="interactive_product_link"/>
+    </LINKEDITORS>
+    <PROJECTS>
+      <LOCAL name=".">
+        <SOURCES>
+          <FOLDER name="images"/>
+        </SOURCES>
+      </LOCAL>
+    </PROJECTS>
+  </CMS_INPUT_IMAGEMAP>
+
+</CMS_MODULE>

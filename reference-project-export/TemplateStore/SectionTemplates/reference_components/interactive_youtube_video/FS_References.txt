@@ -1,0 +1,17 @@
+[self]
+uid=interactive_youtube_video
+gid=968682c3-c1d0-4cde-bbcd-a404898170f7
+uidType=TEMPLATESTORE
+class=de.espirit.firstspirit.store.access.templatestore.SectionTemplateImpl
+
+[optionalId]
+uid=interactive_video_item
+gid=b7bcbb2a-4077-45fb-acff-a7be2368bb19
+uidType=TEMPLATESTORE
+class=de.espirit.firstspirit.store.access.templatestore.SectionTemplateImpl
+
+uid=interactive_video_product_item
+gid=a610015e-01cb-42d4-96fa-ee85bf19962d
+uidType=TEMPLATESTORE
+class=de.espirit.firstspirit.store.access.templatestore.SectionTemplateImpl
+

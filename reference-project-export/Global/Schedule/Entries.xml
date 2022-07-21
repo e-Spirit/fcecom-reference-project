@@ -358,4 +358,176 @@ com.espirit.caasconnect.executable.CaasConnectPipelineExecutable</OBJECT>
 			</OBJECT>
 		</FIELD>
 	</OBJECT>
+	<OBJECT class="de.espirit.firstspirit.server.scheduler.ScheduleEntryDTO">
+		<FIELD name="_active" type="boolean">true</FIELD>
+		<FIELD name="_allowInteractiveExecution" type="boolean">false</FIELD>
+		<FIELD name="_allowParallelExecution" type="boolean">false</FIELD>
+		<FIELD name="_description"><NULL/><!-- class java.lang.String --></FIELD>
+		<FIELD name="_email"><NULL/><!-- class java.lang.String --></FIELD>
+		<FIELD name="_folderName"><NULL/><!-- class java.lang.String --></FIELD>
+		<FIELD name="_groupIds">
+			<OBJECT class="java.util.ArrayList">
+			</OBJECT>
+		</FIELD>
+		<FIELD name="_id" type="long">-266662934419862944</FIELD>
+		<FIELD name="_name">
+			<OBJECT class="java.lang.String">Navigation Live Generation</OBJECT>
+		</FIELD>
+		<FIELD name="_parallelExecutionMode" type="int">0</FIELD>
+		<FIELD name="_projectId" type="long">-5802341919937733185</FIELD>
+		<FIELD name="_schedule"><NULL/><!-- class de.espirit.firstspirit.server.scheduler.ExecutionScheduleDTO --></FIELD>
+		<FIELD name="_system" type="boolean">false</FIELD>
+		<FIELD name="_tasks">
+			<OBJECT class="java.util.ArrayList">
+				<OBJECT class="de.espirit.firstspirit.server.scheduler.ScriptTaskDTO">
+					<FIELD name="_active" type="boolean">true</FIELD>
+					<FIELD name="_clusterNodeName"><NULL/><!-- class java.lang.String --></FIELD>
+					<FIELD name="_description"><NULL/><!-- class java.lang.String --></FIELD>
+					<FIELD name="_executeInFault" type="boolean">false</FIELD>
+					<FIELD name="_executeOnClusterNode" type="boolean">false</FIELD>
+					<FIELD name="_name">
+						<OBJECT class="java.lang.String">Navigation Live Generation</OBJECT>
+					</FIELD>
+					<FIELD name="_parallel" type="boolean">false</FIELD>
+					<FIELD name="_parameters">
+						<OBJECT class="java.util.HashMap">
+							<OBJECT class="java.lang.String">useRelease</OBJECT>
+							<OBJECT class="java.lang.String">true</OBJECT>
+						</OBJECT>
+					</FIELD>
+					<FIELD name="_properties">
+						<OBJECT class="java.util.Properties">
+						</OBJECT>
+					</FIELD>
+					<FIELD name="_scriptType">
+						<OBJECT class="de.espirit.firstspirit.access.schedule.ScriptTask$Type">extFIRSTspirit</OBJECT>
+					</FIELD>
+					<FIELD name="_source">
+						<OBJECT class="java.lang.String">#! executable-class
+com.espirit.navigation.schedule.NavigationGenerationExecutable</OBJECT>
+					</FIELD>
+					<FIELD name="_templateId" type="long">-1</FIELD>
+				</OBJECT>
+				<OBJECT class="de.espirit.firstspirit.server.scheduler.ScriptTaskDTO">
+					<FIELD name="_active" type="boolean">true</FIELD>
+					<FIELD name="_clusterNodeName"><NULL/><!-- class java.lang.String --></FIELD>
+					<FIELD name="_description"><NULL/><!-- class java.lang.String --></FIELD>
+					<FIELD name="_executeInFault" type="boolean">false</FIELD>
+					<FIELD name="_executeOnClusterNode" type="boolean">false</FIELD>
+					<FIELD name="_name">
+						<OBJECT class="java.lang.String">Navigation Live Cleanup</OBJECT>
+					</FIELD>
+					<FIELD name="_parallel" type="boolean">false</FIELD>
+					<FIELD name="_parameters">
+						<OBJECT class="java.util.HashMap">
+							<OBJECT class="java.lang.String">useRelease</OBJECT>
+							<OBJECT class="java.lang.String">true</OBJECT>
+						</OBJECT>
+					</FIELD>
+					<FIELD name="_properties">
+						<OBJECT class="java.util.Properties">
+						</OBJECT>
+					</FIELD>
+					<FIELD name="_scriptType">
+						<OBJECT class="de.espirit.firstspirit.access.schedule.ScriptTask$Type">extFIRSTspirit</OBJECT>
+					</FIELD>
+					<FIELD name="_source">
+						<OBJECT class="java.lang.String">#! executable-class
+com.espirit.navigation.schedule.NavigationCleanupExecutable</OBJECT>
+					</FIELD>
+					<FIELD name="_templateId" type="long">-1</FIELD>
+				</OBJECT>
+			</OBJECT>
+		</FIELD>
+		<FIELD name="_userIds">
+			<OBJECT class="java.util.ArrayList">
+			</OBJECT>
+		</FIELD>
+	</OBJECT>
+	<OBJECT class="de.espirit.firstspirit.server.scheduler.ScheduleEntryDTO">
+		<FIELD name="_active" type="boolean">true</FIELD>
+		<FIELD name="_allowInteractiveExecution" type="boolean">false</FIELD>
+		<FIELD name="_allowParallelExecution" type="boolean">false</FIELD>
+		<FIELD name="_description"><NULL/><!-- class java.lang.String --></FIELD>
+		<FIELD name="_email"><NULL/><!-- class java.lang.String --></FIELD>
+		<FIELD name="_folderName"><NULL/><!-- class java.lang.String --></FIELD>
+		<FIELD name="_groupIds">
+			<OBJECT class="java.util.ArrayList">
+			</OBJECT>
+		</FIELD>
+		<FIELD name="_id" type="long">-2414732297275828165</FIELD>
+		<FIELD name="_name">
+			<OBJECT class="java.lang.String">Navigation Preview Generation</OBJECT>
+		</FIELD>
+		<FIELD name="_parallelExecutionMode" type="int">0</FIELD>
+		<FIELD name="_projectId" type="long">-5802341919937733185</FIELD>
+		<FIELD name="_schedule"><NULL/><!-- class de.espirit.firstspirit.server.scheduler.ExecutionScheduleDTO --></FIELD>
+		<FIELD name="_system" type="boolean">false</FIELD>
+		<FIELD name="_tasks">
+			<OBJECT class="java.util.ArrayList">
+				<OBJECT class="de.espirit.firstspirit.server.scheduler.ScriptTaskDTO">
+					<FIELD name="_active" type="boolean">true</FIELD>
+					<FIELD name="_clusterNodeName"><NULL/><!-- class java.lang.String --></FIELD>
+					<FIELD name="_description"><NULL/><!-- class java.lang.String --></FIELD>
+					<FIELD name="_executeInFault" type="boolean">false</FIELD>
+					<FIELD name="_executeOnClusterNode" type="boolean">false</FIELD>
+					<FIELD name="_name">
+						<OBJECT class="java.lang.String">Navigation Preview Generation</OBJECT>
+					</FIELD>
+					<FIELD name="_parallel" type="boolean">false</FIELD>
+					<FIELD name="_parameters">
+						<OBJECT class="java.util.HashMap">
+							<OBJECT class="java.lang.String">useRelease</OBJECT>
+							<OBJECT class="java.lang.String">false</OBJECT>
+						</OBJECT>
+					</FIELD>
+					<FIELD name="_properties">
+						<OBJECT class="java.util.Properties">
+						</OBJECT>
+					</FIELD>
+					<FIELD name="_scriptType">
+						<OBJECT class="de.espirit.firstspirit.access.schedule.ScriptTask$Type">extFIRSTspirit</OBJECT>
+					</FIELD>
+					<FIELD name="_source">
+						<OBJECT class="java.lang.String">#! executable-class
+com.espirit.navigation.schedule.NavigationGenerationExecutable</OBJECT>
+					</FIELD>
+					<FIELD name="_templateId" type="long">-1</FIELD>
+				</OBJECT>
+				<OBJECT class="de.espirit.firstspirit.server.scheduler.ScriptTaskDTO">
+					<FIELD name="_active" type="boolean">true</FIELD>
+					<FIELD name="_clusterNodeName"><NULL/><!-- class java.lang.String --></FIELD>
+					<FIELD name="_description"><NULL/><!-- class java.lang.String --></FIELD>
+					<FIELD name="_executeInFault" type="boolean">false</FIELD>
+					<FIELD name="_executeOnClusterNode" type="boolean">false</FIELD>
+					<FIELD name="_name">
+						<OBJECT class="java.lang.String">Navigation Preview Cleanup</OBJECT>
+					</FIELD>
+					<FIELD name="_parallel" type="boolean">false</FIELD>
+					<FIELD name="_parameters">
+						<OBJECT class="java.util.HashMap">
+							<OBJECT class="java.lang.String">useRelease</OBJECT>
+							<OBJECT class="java.lang.String">false</OBJECT>
+						</OBJECT>
+					</FIELD>
+					<FIELD name="_properties">
+						<OBJECT class="java.util.Properties">
+						</OBJECT>
+					</FIELD>
+					<FIELD name="_scriptType">
+						<OBJECT class="de.espirit.firstspirit.access.schedule.ScriptTask$Type">extFIRSTspirit</OBJECT>
+					</FIELD>
+					<FIELD name="_source">
+						<OBJECT class="java.lang.String">#! executable-class
+com.espirit.navigation.schedule.NavigationCleanupExecutable</OBJECT>
+					</FIELD>
+					<FIELD name="_templateId" type="long">-1</FIELD>
+				</OBJECT>
+			</OBJECT>
+		</FIELD>
+		<FIELD name="_userIds">
+			<OBJECT class="java.util.ArrayList">
+			</OBJECT>
+		</FIELD>
+	</OBJECT>
 </OBJECT>

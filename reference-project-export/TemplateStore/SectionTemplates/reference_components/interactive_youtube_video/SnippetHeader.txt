@@ -1,0 +1,1 @@
+st_youtubeVideo.values.get(st_youtubeVideo.values.size()-1).getDescription()

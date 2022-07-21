@@ -1,0 +1,1 @@
+if(!st_headline.empty, st_headline, if(!st_interactive_image.empty, st_interactive_image.media.filename, ""))

@@ -68,6 +68,9 @@
 			<FIELD name="_maxImageSize" type="long">0</FIELD>
 		</OBJECT>
 	</FIELD>
+	<FIELD name="_mediaNotTranslatedStrategy">
+		<OBJECT class="de.espirit.firstspirit.access.project.Project$MediaNotTranslatedStrategy">IGNORE</OBJECT>
+	</FIELD>
 	<FIELD name="_metadataDescriptions">
 		<OBJECT class="java.util.ArrayList">
 		</OBJECT>
@@ -154,7 +157,7 @@
 	<FIELD name="_webeditDefaultTemplate" type="long">-1</FIELD>
 	<FIELD name="_webeditDefaultWorkflow" type="long">-1</FIELD>
 	<FIELD name="_webeditPreviewUrl">
-		<OBJECT class="java.lang.String">http://localhost:3000/firstspirit-preview/?caas-url=&lt;caas-url&gt;&amp;caas-key=&lt;caas-key&gt;</OBJECT>
+		<OBJECT class="java.lang.String">http://localhost:4200</OBJECT>
 	</FIELD>
 	<FIELD name="_webeditStoreMapping">
 		<OBJECT class="java.lang.String">de.espirit.firstspirit.webedit.server.store.SynchronousStoreMappingPlugin</OBJECT>

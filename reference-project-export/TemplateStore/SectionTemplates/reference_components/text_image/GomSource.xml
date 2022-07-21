@@ -48,6 +48,13 @@
     </PROJECTS>
   </FS_REFERENCE>
 
+  <CMS_INPUT_TEXT name="st_image_alt_text" hFill="yes" singleLine="no" useLanguages="yes">
+    <LANGINFOS>
+      <LANGINFO lang="*" label="Alternative text"/>
+      <LANGINFO lang="DE" label="Alternativer Text"/>
+    </LANGINFOS>
+  </CMS_INPUT_TEXT>
+
   <CMS_INPUT_RADIOBUTTON name="st_variant" hFill="yes" useLanguages="no">
     <ENTRIES>
       <ENTRY value="image-left">

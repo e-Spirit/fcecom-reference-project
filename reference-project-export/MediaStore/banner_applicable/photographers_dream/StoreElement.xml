@@ -1,8 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<MEDIUM filename="PhotographersDream" id="-7810244299118014902" type="pic" uniquedescription="photographers_dream">
+<MEDIUM filename="PhotographersDream" id="-7810244299118014902" languagedependent="1" type="pic" uniquedescription="photographers_dream">
 	<LANG displayname="Fotografentraum" language="DE"/>
 	<LANG displayname="Photographers Dream" language="EN"/>
-	<PICTURE>
+	<PICTURE language="DE">
+		<RESOLUTION extension="jpg" height="3841" mimetype="image/jpeg" resolutionid="ORIGINAL" width="4793"/>
+	</PICTURE>
+	<PICTURE language="EN">
 		<RESOLUTION extension="jpg" height="3841" mimetype="image/jpeg" resolutionid="ORIGINAL" width="4793"/>
 	</PICTURE>
 </MEDIUM>

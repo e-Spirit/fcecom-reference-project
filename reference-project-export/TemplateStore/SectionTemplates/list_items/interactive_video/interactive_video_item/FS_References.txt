@@ -1,0 +1,17 @@
+[self]
+uid=interactive_video_item
+gid=b7bcbb2a-4077-45fb-acff-a7be2368bb19
+uidType=TEMPLATESTORE
+class=de.espirit.firstspirit.store.access.templatestore.SectionTemplateImpl
+
+[optionalId]
+uid=root
+gid=b8e92b81-d963-46a3-b499-02e66b034290
+uidType=SITESTORE_FOLDER
+class=de.espirit.firstspirit.store.access.sitestore.SiteStoreRootImpl
+
+uid=p
+gid=62820d3d-384f-4872-ba7a-00606f001ac6
+uidType=TEMPLATESTORE_FORMATTEMPLATE
+class=de.espirit.firstspirit.store.access.templatestore.FormatTemplateImpl
+

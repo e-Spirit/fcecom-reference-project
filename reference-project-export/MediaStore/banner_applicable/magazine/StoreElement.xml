@@ -1,8 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<MEDIUM filename="magazine" id="3108460436374922225" type="pic" uniquedescription="magazine">
+<MEDIUM filename="magazine" id="3108460436374922225" languagedependent="1" type="pic" uniquedescription="magazine">
 	<LANG displayname="Magazin" language="DE"/>
 	<LANG displayname="Magazine" language="EN"/>
-	<PICTURE>
+	<PICTURE language="DE">
+		<RESOLUTION extension="jpg" height="1280" mimetype="image/jpeg" resolutionid="ORIGINAL" width="1920"/>
+	</PICTURE>
+	<PICTURE language="EN">
 		<RESOLUTION extension="jpg" height="1280" mimetype="image/jpeg" resolutionid="ORIGINAL" width="1920"/>
 	</PICTURE>
 </MEDIUM>

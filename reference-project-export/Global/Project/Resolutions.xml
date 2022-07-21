@@ -35,6 +35,7 @@
 		<FIELD name="_smartCropping" type="boolean">true</FIELD>
 		<FIELD name="_tags">
 			<OBJECT class="java.util.TreeSet">
+				<OBJECT class="java.lang.String">SmartCropping</OBJECT>
 			</OBJECT>
 		</FIELD>
 		<FIELD name="m_description">

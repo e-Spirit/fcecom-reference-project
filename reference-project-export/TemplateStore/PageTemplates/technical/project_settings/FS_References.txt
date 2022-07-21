@@ -4,3 +4,9 @@ gid=4370a4d9-58f8-4fd3-b0b1-688402dc1ee5
 uidType=TEMPLATESTORE
 class=de.espirit.firstspirit.store.access.templatestore.PageTemplateImpl
 
+[optionalId]
+uid=root
+gid=c56d792e-e06b-4216-aeb8-0cfb6d42adb2
+uidType=MEDIASTORE_FOLDER
+class=de.espirit.firstspirit.store.access.mediastore.MediaStoreRootImpl
+

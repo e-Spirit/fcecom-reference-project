@@ -1,0 +1,7 @@
+[self]
+uid=/caas_zero
+gid=49cd0b03-56ab-4a6b-b5fc-0a758ce64e5f
+store=TEMPLATESTORE
+class=de.espirit.firstspirit.store.access.templatestore.ScriptFolderImpl
+root=de.espirit.firstspirit.store.access.templatestore.ScriptsImpl
+

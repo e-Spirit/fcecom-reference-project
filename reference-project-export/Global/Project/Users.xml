@@ -4,7 +4,7 @@
 		<FIELD name="_active" type="boolean">true</FIELD>
 		<FIELD name="_groups"><NULL/><!-- class [Lde.espirit.firstspirit.server.projectmanagement.ExternalGroupDTO; --></FIELD>
 		<FIELD name="_salt">
-			<ARRAY type="byte">Xbh6a8iRXL78ndcz</ARRAY>
+			<ARRAY type="byte">FM9mrOMI3Ok4WojI</ARRAY>
 		</FIELD>
 		<FIELD name="_serverAdmin" type="boolean">true</FIELD>
 		<FIELD name="m_EMail"><NULL/><!-- class java.lang.String --></FIELD>

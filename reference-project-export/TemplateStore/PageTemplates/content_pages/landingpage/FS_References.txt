@@ -4,9 +4,29 @@ gid=16dd8450-fb4f-4bf2-99db-935d1164f2f4
 uidType=TEMPLATESTORE
 class=de.espirit.firstspirit.store.access.templatestore.PageTemplateImpl
 
-[requiredProjectId]
-uid=landingpage
-gid=16dd8450-fb4f-4bf2-99db-935d1164f2f4
+[optionalId]
+uid=banner
+gid=895f14a7-dba9-4921-af95-ad87892276da
 uidType=TEMPLATESTORE
-class=de.espirit.firstspirit.store.access.templatestore.PageTemplateImpl
+class=de.espirit.firstspirit.store.access.templatestore.SectionTemplateImpl
+
+uid=carousel
+gid=984b221b-0099-4985-ba19-de55b5849257
+uidType=TEMPLATESTORE
+class=de.espirit.firstspirit.store.access.templatestore.SectionTemplateImpl
+
+uid=interactive_image
+gid=9db1952e-5254-42f2-a161-2dc7fb69f727
+uidType=TEMPLATESTORE
+class=de.espirit.firstspirit.store.access.templatestore.SectionTemplateImpl
+
+uid=interactive_youtube_video
+gid=968682c3-c1d0-4cde-bbcd-a404898170f7
+uidType=TEMPLATESTORE
+class=de.espirit.firstspirit.store.access.templatestore.SectionTemplateImpl
+
+uid=text_image
+gid=f1eb87e4-50ff-4e49-b368-276ae9abe426
+uidType=TEMPLATESTORE
+class=de.espirit.firstspirit.store.access.templatestore.SectionTemplateImpl
 

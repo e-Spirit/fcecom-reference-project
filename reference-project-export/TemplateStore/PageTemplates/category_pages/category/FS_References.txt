@@ -15,13 +15,13 @@ gid=984b221b-0099-4985-ba19-de55b5849257
 uidType=TEMPLATESTORE
 class=de.espirit.firstspirit.store.access.templatestore.SectionTemplateImpl
 
-uid=shoppable_video
-gid=e0cbf4e4-df9b-4d41-b94b-3d8394fbd0f4
+uid=interactive_image
+gid=9db1952e-5254-42f2-a161-2dc7fb69f727
 uidType=TEMPLATESTORE
 class=de.espirit.firstspirit.store.access.templatestore.SectionTemplateImpl
 
-uid=teaser_grid
-gid=33ef4cd2-f52b-401d-83c9-a2f53baaf1e2
+uid=interactive_youtube_video
+gid=968682c3-c1d0-4cde-bbcd-a404898170f7
 uidType=TEMPLATESTORE
 class=de.espirit.firstspirit.store.access.templatestore.SectionTemplateImpl
 

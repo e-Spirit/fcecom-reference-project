@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MEDIUM filename="picture_ORIGINAL" id="4996281942417815389" languagedependent="1" type="pic" uniquedescription="smart_living_wh">
+	<LANG displayname="Smart Living WH" language="DE"/>
+	<LANG displayname="Smart Living WH" language="EN"/>
+	<PICTURE language="DE">
+		<RESOLUTION extension="png" height="512" mimetype="image/png" resolutionid="ORIGINAL" width="512"/>
+	</PICTURE>
+	<PICTURE language="EN">
+		<RESOLUTION extension="png" height="512" mimetype="image/png" resolutionid="ORIGINAL" width="512"/>
+	</PICTURE>
+</MEDIUM>

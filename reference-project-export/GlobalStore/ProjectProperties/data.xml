@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<FIELDS>
+	<FIELD name='ps_logo'><UID>smart_living_wh</UID><UIDTYPE>MEDIASTORE_LEAF</UIDTYPE><REMOTE/></FIELD>
+	<FIELD name='ps_logo_small'><UID>smart_living_bk</UID><UIDTYPE>MEDIASTORE_LEAF</UIDTYPE><REMOTE/></FIELD>
+	<FIELD name='ps_theme_primary'><TEXT>#D5DD03</TEXT></FIELD>
+	<FIELD name='ps_theme_secondary'><TEXT>#999999</TEXT></FIELD>
+</FIELDS>

@@ -1,8 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<MEDIUM filename="FemaleModel" id="-1516069775145214807" type="pic" uniquedescription="female_model">
+<MEDIUM filename="FemaleModel" id="-1516069775145214807" languagedependent="1" type="pic" uniquedescription="female_model">
 	<LANG displayname="Female Model" language="EN"/>
 	<LANG displayname="Weibliches Model" language="DE"/>
-	<PICTURE description="Look at me!">
+	<PICTURE description="Look at me!" language="DE">
+		<RESOLUTION extension="jpg" height="854" mimetype="image/jpeg" resolutionid="ORIGINAL" width="1280"/>
+	</PICTURE>
+	<PICTURE language="EN">
 		<RESOLUTION extension="jpg" height="854" mimetype="image/jpeg" resolutionid="ORIGINAL" width="1280"/>
 	</PICTURE>
 </MEDIUM>
