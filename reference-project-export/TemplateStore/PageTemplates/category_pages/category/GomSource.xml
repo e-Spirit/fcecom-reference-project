@@ -7,4 +7,10 @@
     </LANGINFOS>
   </CMS_INPUT_TEXT>
 
+  <CMS_INPUT_TEXT name="pt_pageType" hFill="yes" hidden="yes" preset="copy" singleLine="no" useLanguages="no">
+    <LANGINFOS>
+      <LANGINFO lang="*" label="pageType"/>
+    </LANGINFOS>
+  </CMS_INPUT_TEXT>
+
 </CMS_MODULE>
