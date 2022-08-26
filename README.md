@@ -11,16 +11,16 @@ Using this reference project is straightforward:
 ### Prerequisites
 
 You will need a working FirstSpirit instance with administrative privileges.
-> Administrative privileges are not available in the e-Spirit Cloud.
+> Administrative privileges are not available in the Crownpeak Cloud.
 
-To get a working copy of FirstSpirit, please contact your Partner Manager or our [Technical Support](https://help.e-spirit.com).
+To get a working copy of FirstSpirit, please contact your Partner Manager or our [Technical Support](https://support.crownpeak.com).
 In order to install the reference project on a FirstSpirit server, ensure you do have a working copy of [fs-cli](https://github.com/e-Spirit/FSDevTools).
 
 ### Installation
 
 In order to install and work with this reference project, you will first require a copy of it:
 ```
-git clone https://github.com/ecom-espirit/fcecom-reference-project.git
+git clone https://github.com/e-Spirit/fcecom-reference-project.git
 ```
 Then replace the placeholders and use fs-cli to install a copy of it onto your local FirstSpirit server:
 ```
@@ -36,11 +36,11 @@ After that the project is ready to work with.
 
 ## Versioning
 
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/ecom-espirit/fcecom-reference-project/tags).
+We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/e-Spirit/fcecom-reference-project/tags).
 
 ## Author
 
-[e-Spirit AG](https://www.e-spirit.com)
+[Crownpeak Technology GmbH](https://www.crownpeak.com)
 
 ## License
 
