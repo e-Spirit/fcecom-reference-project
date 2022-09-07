@@ -1,5 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <OBJECT class="java.util.HashMap">
+	<OBJECT class="java.lang.String">CaaSConnect_Properties</OBJECT>
+	<OBJECT class="java.util.HashMap">
+		<OBJECT class="java.lang.String">projectConfiguration</OBJECT>
+		<OBJECT class="java.lang.String">{}</OBJECT>
+	</OBJECT>
 	<OBJECT class="java.lang.String">NavigationClientService-ProjectCustomPropertiesScope</OBJECT>
 	<OBJECT class="java.util.HashMap">
 		<OBJECT class="java.lang.String">errorBehaviour</OBJECT>

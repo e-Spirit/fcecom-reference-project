@@ -17,7 +17,7 @@
 	<FIELD name="_allowedApplications"><NULL/><!-- interface java.util.List --></FIELD>
 	<FIELD name="_barAdmin" type="boolean">false</FIELD>
 	<FIELD name="_cacheWeight" type="double">1.0</FIELD>
-	<FIELD name="_checkAllowedApplications" type="boolean">false</FIELD>
+	<FIELD name="_checkAllowedApplications" type="boolean">true</FIELD>
 	<FIELD name="_deleteWorkflow"><NULL/><!-- class java.lang.String --></FIELD>
 	<FIELD name="_enableMediaExtRestrictions" type="boolean">false</FIELD>
 	<FIELD name="_enableMediaSizeLimit" type="boolean">false</FIELD>
@@ -150,6 +150,8 @@
 	<FIELD name="_useServerLockForDataset" type="boolean">false</FIELD>
 	<FIELD name="_webAppsConfigChanged">
 		<OBJECT class="java.util.HashMap">
+			<OBJECT class="java.lang.String">PREVIEW</OBJECT>
+			<OBJECT class="java.lang.Boolean">true</OBJECT>
 			<OBJECT class="java.lang.String">WEBEDIT</OBJECT>
 			<OBJECT class="java.lang.Boolean">true</OBJECT>
 		</OBJECT>

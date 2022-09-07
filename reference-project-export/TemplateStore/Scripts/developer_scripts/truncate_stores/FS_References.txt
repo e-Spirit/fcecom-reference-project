@@ -1,6 +1,0 @@
-[self]
-uid=truncate_stores
-gid=422a46fc-1278-4176-8f68-989300054958
-uidType=TEMPLATESTORE
-class=de.espirit.firstspirit.store.access.templatestore.ScriptImpl
-

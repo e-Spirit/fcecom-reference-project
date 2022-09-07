@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<SCRIPT alwaysActive="1" comment="" id="6041958071202671989" name="wf_delete_showactiondialog_w_autotransition" type="1">
+<SCRIPT comment="" id="6041958071202671989" name="wf_delete_showactiondialog_w_autotransition" type="0">
 	<LANG displayname="wf_delete_showactiondialog_w_autotransition" language="DE"/>
 	<LANG displayname="wf_delete_showactiondialog_w_autotransition" language="EN"/>
 </SCRIPT>
