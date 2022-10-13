@@ -1,10 +1,10 @@
 # mimeType        name
+application/octet-stream  Modules/ProjectApps/FirstSpirit Connect for Commerce/FirstSpirit Connect for Commerce - Project Configuration/FirstSpirit Connect for Commerce.properties
+text/plain        Modules/ProjectApps/FirstSpirit Connect for Commerce/FirstSpirit Connect for Commerce - Project Configuration/version.txt
 application/octet-stream  Modules/ProjectApps/YouTube-DAP-Integration/YouTube-DAP-Integration/configuration.properties
 text/plain        Modules/ProjectApps/YouTube-DAP-Integration/YouTube-DAP-Integration/version.txt
 application/json  Modules/ProjectApps/cxt-cc/ContentCreatorFeatureConfigurationProjectApp/features.json
 text/plain        Modules/ProjectApps/cxt-cc/ContentCreatorFeatureConfigurationProjectApp/version.txt
-application/octet-stream  Modules/ProjectApps/fcecom/fcecom ProjectApp/fcecom.properties
-text/plain        Modules/ProjectApps/fcecom/fcecom ProjectApp/version.txt
 text/xml          Project/ConversionTables.xml
 text/xml          Project/CustomProperties.xml
 text/xml          Project/EditorialLanguages.xml

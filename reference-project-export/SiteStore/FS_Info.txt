@@ -5,4 +5,6 @@ HierarchicElement: true
 Language_DE: Deutsch
 Language_EN: English
 PresentationChannel_-1268668680467729278: HTML
+StartNodeUidType_3188225500264204779: SITESTORE_FOLDER
+StartNodeUid_3188225500264204779: home
 TemplateSet_9062318847741885912: html

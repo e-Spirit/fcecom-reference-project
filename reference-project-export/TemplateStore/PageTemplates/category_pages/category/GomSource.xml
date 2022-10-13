@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CMS_MODULE>
 
-  <CMS_INPUT_TEXT name="pageId" hFill="yes" singleLine="no" useLanguages="yes">
+  <CMS_INPUT_TEXT name="id" hFill="yes" singleLine="no" useLanguages="no">
     <LANGINFOS>
-      <LANGINFO lang="*" label="pageId"/>
+      <LANGINFO lang="*" label="id"/>
     </LANGINFOS>
   </CMS_INPUT_TEXT>
 
-  <CMS_INPUT_TEXT name="pt_pageType" hFill="yes" hidden="yes" preset="copy" singleLine="no" useLanguages="no">
+  <CMS_INPUT_TEXT name="type" hFill="yes" hidden="yes" preset="copy" singleLine="no" useLanguages="no">
     <LANGINFOS>
-      <LANGINFO lang="*" label="pageType"/>
+      <LANGINFO lang="*" label="type"/>
     </LANGINFOS>
   </CMS_INPUT_TEXT>
 
