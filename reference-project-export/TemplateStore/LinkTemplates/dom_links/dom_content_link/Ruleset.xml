@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RULES>
+	<!-- mandatory -->
+	<RULE>
+		<WITH>
+			<NOT>
+				<PROPERTY name="EMPTY" source="lt_pageref"/>
+			</NOT>
+		</WITH>
+		<DO>
+			<VALIDATION scope="SAVE">
+				<PROPERTY name="VALID" source="lt_pageref"/>
+				<MESSAGE lang="*" text="Please select a page"/>
+				<MESSAGE lang="DE" text="Bitte geben Sie eine Inhaltsreferenz an!"/>
+			</VALIDATION>
+		</DO>
+	</RULE>
+</RULES>

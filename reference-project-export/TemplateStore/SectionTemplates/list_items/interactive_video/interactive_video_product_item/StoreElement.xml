@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEMPLATE comment="" filename="interactive_video_product_item" id="2501304004795860224" templateid="3433722121005755289" type="section">
+<TEMPLATE comment="" filename="interactive_video_product_item" id="2501304004795860224" templateid="3433722121005755289" transferEditor="st_product" type="section">
 	<EXTENSION file="html" link="html" templateSet="9062318847741885912"/>
 	<LANG displayname="Interactive video product item" language="EN"/>
 	<LANG displayname="Interaktives Video Produkt Element" language="DE"/>

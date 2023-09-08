@@ -15,4 +15,28 @@
 			</NOT>
 		</DO>
 	</RULE>
+	<RULE>
+		<WITH>
+			<EQUAL>
+				<PROPERTY name="ENTRY" source="st_style"/>
+				<TEXT>text_image</TEXT>
+			</EQUAL>
+		</WITH>
+		<DO>
+			<PROPERTY name="VISIBLE" source="st_layout"/>
+			<PROPERTY name="VISIBLE" source="st_headline"/>
+			<PROPERTY name="VISIBLE" source="st_text"/>
+		</DO>
+	</RULE>
+	<RULE>
+		<WITH>
+			<EQUAL>
+				<PROPERTY name="STORETYPE" source="#global"/>
+				<TEXT>templatestore</TEXT>
+			</EQUAL>
+		</WITH>
+		<DO>
+			<PROPERTY name="VISIBLE" source="#form.sectionLifespan"/>
+		</DO>
+	</RULE>
 </RULES>

@@ -1,0 +1,6 @@
+[self]
+uid=tpp_list_projectapps
+gid=dd699329-d161-477b-a4f8-6ce24870f1ca
+uidType=TEMPLATESTORE
+class=de.espirit.firstspirit.store.access.templatestore.ScriptImpl
+

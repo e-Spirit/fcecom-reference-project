@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RULES>
+	<RULE>
+		<IF>
+			<EQUAL>
+				<PROPERTY name="MASTER" source="#global"/>
+				<PROPERTY name="LANG" source="#global"/>
+			</EQUAL>
+		</IF>
+		<WITH>
+			<NOT>
+				<AND>
+					<PROPERTY name="EMPTY" source="st_picture"/>
+					<PROPERTY name="EMPTY" source="st_headline"/>
+					<PROPERTY name="EMPTY" source="st_subline"/>
+					<PROPERTY name="EMPTY" source="st_text"/>
+				</AND>
+			</NOT>
+		</WITH>
+		<DO>
+			<VALIDATION scope="SAVE">
+				<PROPERTY name="VALID" source="st_picture"/>
+				<MESSAGE lang="*" text="The teaser can not be completly empty! Please add some content."/>
+				<MESSAGE lang="DE" text="Der Teaser kann nicht komplett leer sein! Bitte fügen Sie Inhalt hinzu."/>
+			</VALIDATION>
+			<VALIDATION scope="SAVE">
+				<PROPERTY name="VALID" source="st_headline"/>
+				<MESSAGE lang="*" text="The teaser can not be completly empty! Please add some content."/>
+				<MESSAGE lang="DE" text="Der Teaser kann nicht komplett leer sein! Bitte fügen Sie Inhalt hinzu."/>
+			</VALIDATION>
+			<VALIDATION scope="SAVE">
+				<PROPERTY name="VALID" source="st_subline"/>
+				<MESSAGE lang="*" text="The teaser can not be completly empty! Please add some content."/>
+				<MESSAGE lang="DE" text="Der Teaser kann nicht komplett leer sein! Bitte fügen Sie Inhalt hinzu."/>
+			</VALIDATION>
+			<VALIDATION scope="SAVE">
+				<PROPERTY name="VALID" source="st_text"/>
+				<MESSAGE lang="*" text="The teaser can not be completly empty! Please add some content."/>
+				<MESSAGE lang="DE" text="Der Teaser kann nicht komplett leer sein! Bitte fügen Sie Inhalt hinzu."/>
+			</VALIDATION>
+		</DO>
+	</RULE>
+</RULES>

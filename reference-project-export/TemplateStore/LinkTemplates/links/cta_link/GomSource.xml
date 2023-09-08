@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CMS_MODULE>
+
+  <CMS_INPUT_RADIOBUTTON name="lt_theme" hFill="yes" preset="copy" useLanguages="no">
+    <ENTRIES>
+      <ENTRY value="dark">
+        <LANGINFOS>
+          <LANGINFO lang="*" label="Dark"/>
+          <LANGINFO lang="DE" label="Dunkel"/>
+        </LANGINFOS>
+      </ENTRY>
+      <ENTRY value="light">
+        <LANGINFOS>
+          <LANGINFO lang="*" label="Light"/>
+          <LANGINFO lang="DE" label="Hell"/>
+        </LANGINFOS>
+      </ENTRY>
+    </ENTRIES>
+    <LANGINFOS>
+      <LANGINFO lang="*" label="Theme"/>
+      <LANGINFO lang="DE" label="Darstellung"/>
+    </LANGINFOS>
+  </CMS_INPUT_RADIOBUTTON>
+
+  <CMS_INPUT_TEXT name="lt_text" hFill="yes" singleLine="no" useLanguages="no">
+    <LANGINFOS>
+      <LANGINFO lang="*" label="Link text"/>
+      <LANGINFO lang="DE" label="Verweistext"/>
+    </LANGINFOS>
+  </CMS_INPUT_TEXT>
+
+  <CMS_INPUT_LINK name="lt_link" hFill="yes" mode="inline" useLanguages="no">
+    <LANGINFOS>
+      <LANGINFO lang="*" label="Link"/>
+      <LANGINFO lang="DE" label="Verweis"/>
+    </LANGINFOS>
+    <LINKEDITORS>
+      <LINKEDITOR name="category_link"/>
+      <LINKEDITOR name="external_link"/>
+      <LINKEDITOR name="internal_link"/>
+      <LINKEDITOR name="product_link"/>
+    </LINKEDITORS>
+  </CMS_INPUT_LINK>
+
+</CMS_MODULE>

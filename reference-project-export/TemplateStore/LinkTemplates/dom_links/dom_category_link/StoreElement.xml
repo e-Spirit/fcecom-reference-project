@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LINKTEMPLATE cat="url" drop="lt_category" id="-6198916686389795416" name="dom_category_link" txt="lt_linkText">
+	<LANG displayname="Category Link" language="EN"/>
+	<LANG displayname="Kategorieverweis" language="DE"/>
+</LINKTEMPLATE>

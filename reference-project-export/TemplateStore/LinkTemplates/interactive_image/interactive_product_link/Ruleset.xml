@@ -1,3 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <RULES>
+	<RULE>
+		<WITH>
+			<LESS_THAN>
+				<PROPERTY name="SIZE" source="lt_product"/>
+				<NUMBER>1</NUMBER>
+			</LESS_THAN>
+		</WITH>
+		<DO>
+			<PROPERTY name="ADD" source="lt_product"/>
+		</DO>
+	</RULE>
 </RULES>

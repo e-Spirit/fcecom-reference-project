@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FORMATTEMPLATE id="-8312961769605124427" name="subline">
+	<LANG displayname="Subline" language="EN"/>
+	<LANG displayname="Unterzeile" language="DE"/>
+	<style tag="subline" view="flow">
+		<attr name="align" value="LEFT"/>
+		<attr name="background-color" value=""/>
+		<attr name="border-color" value=""/>
+		<attr name="color" value=""/>
+		<attr name="font-size" value="14"/>
+		<attr name="font-style" value="bold"/>
+		<attr name="font" value=""/>
+		<attr name="tooltip" value=""/>
+	</style>
+</FORMATTEMPLATE>

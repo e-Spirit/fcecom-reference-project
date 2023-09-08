@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RULES>
+	<RULE>
+		<WITH>
+			<EQUAL>
+				<PROPERTY name="ENTRY" source="lt_type"/>
+				<TEXT>button</TEXT>
+			</EQUAL>
+		</WITH>
+		<DO>
+			<PROPERTY name="VISIBLE" source="lt_theme"/>
+		</DO>
+	</RULE>
+	<RULE>
+		<WITH>
+			<PROPERTY name="EMPTY" source="lt_link"/>
+		</WITH>
+		<DO>
+			<NOT>
+				<VALIDATION scope="Release">
+					<PROPERTY name="VALID" source="lt_link"/>
+					<MESSAGE lang="*" text="Please select a link!"/>
+					<MESSAGE lang="DE" text="Bitte geben Sie einen Verweis an!"/>
+				</VALIDATION>
+			</NOT>
+		</DO>
+	</RULE>
+</RULES>

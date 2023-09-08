@@ -1,0 +1,16 @@
+{
+  "generalConfig":{
+    "ccExtensionsUrl":"",
+    "useCCExtensions":false,
+    "disableBridgePageCreation":false
+  },
+  "bridgeConfig":{
+    "bridgeApiUrl":"",
+    "bridgeUsername":"",
+    "bridgePassword":""
+  },
+  "reportConfig":{
+    "categoryReportCategoryLevel":3,
+    "productReportCategoryLevel":3
+  }
+}

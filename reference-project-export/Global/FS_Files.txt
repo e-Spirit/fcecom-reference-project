@@ -1,5 +1,5 @@
 # mimeType        name
-application/octet-stream  Modules/ProjectApps/FirstSpirit Connect for Commerce/FirstSpirit Connect for Commerce - Project Configuration/FirstSpirit Connect for Commerce.properties
+application/json  Modules/ProjectApps/FirstSpirit Connect for Commerce/FirstSpirit Connect for Commerce - Project Configuration/configuration.json
 text/plain        Modules/ProjectApps/FirstSpirit Connect for Commerce/FirstSpirit Connect for Commerce - Project Configuration/version.txt
 application/octet-stream  Modules/ProjectApps/YouTube-DAP-Integration/YouTube-DAP-Integration/configuration.properties
 text/plain        Modules/ProjectApps/YouTube-DAP-Integration/YouTube-DAP-Integration/version.txt

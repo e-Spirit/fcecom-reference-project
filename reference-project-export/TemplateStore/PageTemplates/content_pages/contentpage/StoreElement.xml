@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TEMPLATE comment="" filename="contentpage" id="3908844098849816350" templateid="4981886610752817679" type="page">
 	<ALLOWED enabled="content" templateid="-1889781886281073692"/>
+	<ALLOWED enabled="content" templateid="-2620645068692753720"/>
 	<ALLOWED enabled="content" templateid="-8969919162802954099"/>
 	<ALLOWED enabled="content" templateid="3857720796743261453"/>
 	<ALLOWED enabled="stage" templateid="-2776294439780559659"/>

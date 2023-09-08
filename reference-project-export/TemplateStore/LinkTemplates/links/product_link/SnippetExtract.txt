@@ -1,0 +1,3 @@
+if(!lt_product.isEmpty,
+	"Id: " + lt_product.identifiers[0]
+)

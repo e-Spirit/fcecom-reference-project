@@ -1,0 +1,7 @@
+[self]
+uid=/dom_links
+gid=f591de96-e778-4f80-8d7a-2c84a3a38367
+store=TEMPLATESTORE
+class=de.espirit.firstspirit.store.access.templatestore.TemplateFolderImpl
+root=de.espirit.firstspirit.store.access.templatestore.LinkTemplatesImpl
+

@@ -1,12 +1,60 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CMS_MODULE>
 
-  <CMS_INPUT_TEXT name="st_headline">
+  <CMS_INPUT_RADIOBUTTON name="st_style" hFill="yes" preset="copy" useLanguages="no">
+    <ENTRIES>
+      <ENTRY value="image_only">
+        <LANGINFOS>
+          <LANGINFO lang="*" label="Image only"/>
+          <LANGINFO lang="DE" label="Nur Bild"/>
+        </LANGINFOS>
+      </ENTRY>
+      <ENTRY value="text_image">
+        <LANGINFOS>
+          <LANGINFO lang="*" label="Text and Image"/>
+          <LANGINFO lang="DE" label="Text und Bild"/>
+        </LANGINFOS>
+      </ENTRY>
+    </ENTRIES>
+    <LANGINFOS>
+      <LANGINFO lang="*" label="Style"/>
+      <LANGINFO lang="DE" label="Stil"/>
+    </LANGINFOS>
+  </CMS_INPUT_RADIOBUTTON>
+
+  <CMS_INPUT_TEXT name="st_headline" hFill="yes" singleLine="no" useLanguages="yes">
     <LANGINFOS>
       <LANGINFO lang="*" label="Headline"/>
       <LANGINFO lang="DE" label="Überschrift"/>
     </LANGINFOS>
   </CMS_INPUT_TEXT>
+
+  <CMS_INPUT_DOM
+    name="st_text"
+    bold="yes"
+    hFill="yes"
+    italic="yes"
+    list="yes"
+    listConfig="style:List style[0:Bullet Points|2:Numbers]"
+    table="no"
+    useLanguages="yes">
+    <FORMATS>
+      <TEMPLATE name="p"/>
+      <TEMPLATE name="h2"/>
+      <TEMPLATE name="h3"/>
+      <TEMPLATE name="subline"/>
+    </FORMATS>
+    <LANGINFOS>
+      <LANGINFO lang="*" label="Text"/>
+    </LANGINFOS>
+    <LINKEDITORS>
+      <LINKEDITOR name="dom_content_link"/>
+      <LINKEDITOR name="dom_external_link"/>
+      <LINKEDITOR name="dom_product_link"/>
+      <LINKEDITOR name="dom_category_link"/>
+      <LINKEDITOR name="cta_link"/>
+    </LINKEDITORS>
+  </CMS_INPUT_DOM>
 
   <CMS_INPUT_IMAGEMAP name="st_interactive_image" simpleMode="yes" useLanguages="no">
     <LANGINFOS>
@@ -19,10 +67,17 @@
     <PROJECTS>
       <LOCAL name=".">
         <SOURCES>
-          <FOLDER name="images"/>
+          <FOLDER name="root"/>
         </SOURCES>
       </LOCAL>
     </PROJECTS>
   </CMS_INPUT_IMAGEMAP>
+
+  <CMS_INPUT_TEXT name="st_image_alt_text" hFill="yes" singleLine="no">
+    <LANGINFOS>
+      <LANGINFO lang="*" label="Alternative Text"/>
+      <LANGINFO lang="DE" label="Alternativ-Text"/>
+    </LANGINFOS>
+  </CMS_INPUT_TEXT>
 
 </CMS_MODULE>

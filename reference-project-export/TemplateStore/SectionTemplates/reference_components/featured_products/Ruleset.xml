@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RULES>
+	<RULE>
+		<WITH>
+			<GREATER_THAN>
+				<PROPERTY name="SIZE" source="st_products"/>
+				<NUMBER>2</NUMBER>
+			</GREATER_THAN>
+		</WITH>
+		<DO>
+			<NOT>
+				<PROPERTY name="NEW" source="st_products"/>
+			</NOT>
+		</DO>
+	</RULE>
+	<RULE>
+		<WITH>
+			<LESS_THAN>
+				<PROPERTY name="SIZE" source="st_products"/>
+				<NUMBER>2</NUMBER>
+			</LESS_THAN>
+		</WITH>
+		<DO>
+			<NOT>
+				<VALIDATION scope="RELEASE">
+					<PROPERTY name="VALID" source="st_products"/>
+					<MESSAGE lang="*" text="At least two products must be added."/>
+					<MESSAGE lang="DE" text="Es sollten mindestens zwei Produkte hinzugefügt werden."/>
+				</VALIDATION>
+			</NOT>
+		</DO>
+	</RULE>
+</RULES>

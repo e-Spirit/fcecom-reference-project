@@ -1,16 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CMS_MODULE>
 
-  <CMS_INPUT_TEXT name="id" hFill="yes" singleLine="no" useLanguages="no">
+  <FS_CATALOG name="pt_modals">
     <LANGINFOS>
-      <LANGINFO lang="*" label="id"/>
+      <LANGINFO lang="*" label="Modals"/>
     </LANGINFOS>
-  </CMS_INPUT_TEXT>
+    <TEMPLATES type="section">
+      <TEMPLATE uid="modal"/>
+    </TEMPLATES>
+  </FS_CATALOG>
 
-  <CMS_INPUT_TEXT name="type" hFill="yes" hidden="yes" preset="copy" singleLine="no" useLanguages="no">
+  <CMS_GROUP name="technical">
     <LANGINFOS>
-      <LANGINFO lang="*" label="type"/>
+      <LANGINFO lang="*" label="Technical"/>
+      <LANGINFO lang="DE" label="Technische Informationen"/>
     </LANGINFOS>
-  </CMS_INPUT_TEXT>
+
+    <CMS_COMMENT>This section is needed to define the type of template and link it to data from the bridge. Changes to these templates can impact the functionality of the product FirstSpirit Connect for Commerce.
+    </CMS_COMMENT>
+
+    <CMS_INPUT_TEXT name="id" hFill="yes" singleLine="no" useLanguages="no">
+      <LANGINFOS>
+        <LANGINFO lang="*" label="Id"/>
+      </LANGINFOS>
+    </CMS_INPUT_TEXT>
+
+    <CMS_INPUT_TEXT name="type" hFill="yes" preset="copy" singleLine="no" useLanguages="no">
+      <LANGINFOS>
+        <LANGINFO lang="*" label="Type"/>
+        <LANGINFO lang="DE" label="Typ"/>
+      </LANGINFOS>
+    </CMS_INPUT_TEXT>
+
+  </CMS_GROUP>
 
 </CMS_MODULE>

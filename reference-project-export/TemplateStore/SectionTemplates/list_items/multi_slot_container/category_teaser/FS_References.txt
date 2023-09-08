@@ -1,0 +1,12 @@
+[self]
+uid=category_teaser
+gid=def743d0-b282-4bf0-a059-234faa17a748
+uidType=TEMPLATESTORE
+class=de.espirit.firstspirit.store.access.templatestore.SectionTemplateImpl
+
+[optionalId]
+uid=root
+gid=c56d792e-e06b-4216-aeb8-0cfb6d42adb2
+uidType=MEDIASTORE_FOLDER
+class=de.espirit.firstspirit.store.access.mediastore.MediaStoreRootImpl
+

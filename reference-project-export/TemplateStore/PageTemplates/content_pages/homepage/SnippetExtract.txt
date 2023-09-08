@@ -1,0 +1,2 @@
+if(!type.isEmpty, "Type: " + type) 
++ italic(" ID: " + if(id.isEmpty,bold("No id set!"),id))

@@ -1,0 +1,12 @@
+[self]
+uid=dom_content_link
+gid=0d2414be-77f7-4979-afd0-e8853335474a
+uidType=TEMPLATESTORE_LINKTEMPLATE
+class=de.espirit.firstspirit.store.access.templatestore.LinkTemplateImpl
+
+[optionalId]
+uid=root
+gid=b8e92b81-d963-46a3-b499-02e66b034290
+uidType=SITESTORE_FOLDER
+class=de.espirit.firstspirit.store.access.sitestore.SiteStoreRootImpl
+

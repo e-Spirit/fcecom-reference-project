@@ -2,6 +2,7 @@
 <TEMPLATE comment="" filename="product" hidden="1" id="5052548482703082784" templateid="-2129345205571441505" type="page">
 	<ALLOWED enabled="stage" templateid="-2776294439780559659"/>
 	<ALLOWED enabled="stage" templateid="-7623187676376246123"/>
+	<ALLOWED enabled="sub_content" templateid="-2620645068692753720"/>
 	<ALLOWED enabled="sup_content,sub_content" templateid="-1889781886281073692"/>
 	<ALLOWED enabled="sup_content,sub_content" templateid="-8969919162802954099"/>
 	<ALLOWED enabled="sup_content,sub_content" templateid="3857720796743261453"/>

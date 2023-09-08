@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CMS_MODULE>
+
+  <CMS_INPUT_TEXT name="st_headline" hFill="yes" singleLine="no" useLanguages="yes">
+    <LANGINFOS>
+      <LANGINFO lang="*" label="Headline"/>
+      <LANGINFO lang="DE" label="Überschrift"/>
+    </LANGINFOS>
+  </CMS_INPUT_TEXT>
+
+  <CMS_INPUT_DOM name="st_text" hFill="yes" list="no" rows="2" useLanguages="yes">
+    <FORMATS>
+      <TEMPLATE name="subline"/>
+    </FORMATS>
+    <LANGINFOS>
+      <LANGINFO lang="*" label="Text"/>
+    </LANGINFOS>
+    <LINKEDITORS>
+      <LINKEDITOR name="dom_content_link"/>
+      <LINKEDITOR name="dom_external_link"/>
+      <LINKEDITOR name="dom_product_link"/>
+      <LINKEDITOR name="dom_category_link"/>
+      <LINKEDITOR name="cta_link"/>
+    </LINKEDITORS>
+  </CMS_INPUT_DOM>
+
+  <FS_INDEX name="st_products" height="3" useLanguages="no">
+    <LANGINFOS>
+      <LANGINFO lang="*" label="Product"/>
+      <LANGINFO lang="DE" label="Produkt"/>
+    </LANGINFOS>
+    <SOURCE name="FirstSpirit Connect for Commerce/FirstSpirit Connect for Commerce - Products Data Access Plugin"/>
+  </FS_INDEX>
+
+</CMS_MODULE>

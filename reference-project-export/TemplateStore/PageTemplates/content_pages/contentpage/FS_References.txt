@@ -5,6 +5,11 @@ uidType=TEMPLATESTORE
 class=de.espirit.firstspirit.store.access.templatestore.PageTemplateImpl
 
 [optionalId]
+uid=images
+gid=9e41e8d4-b674-4d30-9967-a8a9c2ecdaed
+uidType=MEDIASTORE_FOLDER
+class=de.espirit.firstspirit.store.access.mediastore.MediaFolderImpl
+
 uid=banner
 gid=895f14a7-dba9-4921-af95-ad87892276da
 uidType=TEMPLATESTORE
@@ -12,6 +17,11 @@ class=de.espirit.firstspirit.store.access.templatestore.SectionTemplateImpl
 
 uid=carousel
 gid=984b221b-0099-4985-ba19-de55b5849257
+uidType=TEMPLATESTORE
+class=de.espirit.firstspirit.store.access.templatestore.SectionTemplateImpl
+
+uid=featured_products
+gid=d77ef0fe-1bab-41fe-996e-a8aa39fd61ef
 uidType=TEMPLATESTORE
 class=de.espirit.firstspirit.store.access.templatestore.SectionTemplateImpl
 

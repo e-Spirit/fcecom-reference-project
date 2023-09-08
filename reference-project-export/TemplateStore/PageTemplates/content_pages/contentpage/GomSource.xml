@@ -1,16 +1,113 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CMS_MODULE>
 
-  <CMS_INPUT_TEXT name="id" hFill="yes" singleLine="no" useLanguages="no">
+  <CMS_GROUP name="technical">
     <LANGINFOS>
-      <LANGINFO lang="*" label="id"/>
+      <LANGINFO lang="*" label="Technical"/>
+      <LANGINFO lang="DE" label="Technische Informationen"/>
     </LANGINFOS>
-  </CMS_INPUT_TEXT>
 
-  <CMS_INPUT_TEXT name="type" hFill="yes" hidden="yes" preset="copy" singleLine="no" useLanguages="no">
+    <CMS_COMMENT>This section is needed to define the type of template and link it to data from the bridge. Changes to these templates can impact the functionality of the product FirstSpirit Connect for Commerce.
+    </CMS_COMMENT>
+
+    <CMS_INPUT_TEXT name="id" hFill="yes" singleLine="no" useLanguages="no">
+      <LANGINFOS>
+        <LANGINFO lang="*" label="Id"/>
+      </LANGINFOS>
+    </CMS_INPUT_TEXT>
+
+    <CMS_INPUT_TEXT name="type" hFill="yes" preset="copy" singleLine="no" useLanguages="no">
+      <LANGINFOS>
+        <LANGINFO lang="*" label="Type"/>
+        <LANGINFO lang="DE" label="Typ"/>
+      </LANGINFOS>
+    </CMS_INPUT_TEXT>
+
+  </CMS_GROUP>
+
+  <CMS_GROUP>
     <LANGINFOS>
-      <LANGINFO lang="*" label="type"/>
+      <LANGINFO lang="*" label="Metadata"/>
+      <LANGINFO lang="DE" label="Metadaten"/>
     </LANGINFOS>
-  </CMS_INPUT_TEXT>
+
+    <CMS_INPUT_TEXT name="pt_md_title" hFill="yes" singleLine="no" useLanguages="yes">
+      <LANGINFOS>
+        <LANGINFO lang="*" label="Title"/>
+        <LANGINFO lang="DE" label="Titel"/>
+      </LANGINFOS>
+    </CMS_INPUT_TEXT>
+
+    <CMS_INPUT_COMBOBOX name="pt_md_type" hFill="yes" singleLine="no" useLanguages="no">
+      <ENTRIES>
+        <ENTRY value="website">
+          <LANGINFOS>
+            <LANGINFO lang="*" label="Website"/>
+            <LANGINFO lang="DE" label="Webseite"/>
+          </LANGINFOS>
+        </ENTRY>
+        <ENTRY value="music.song">
+          <LANGINFOS>
+            <LANGINFO lang="*" label="Music"/>
+            <LANGINFO lang="DE" label="Musik"/>
+          </LANGINFOS>
+        </ENTRY>
+        <ENTRY value="video.other">
+          <LANGINFOS>
+            <LANGINFO lang="*" label="Video"/>
+          </LANGINFOS>
+        </ENTRY>
+        <ENTRY value="article">
+          <LANGINFOS>
+            <LANGINFO lang="*" label="Article"/>
+            <LANGINFO lang="DE" label="Artikel"/>
+          </LANGINFOS>
+        </ENTRY>
+      </ENTRIES>
+      <LANGINFOS>
+        <LANGINFO lang="*" label="Type"/>
+        <LANGINFO lang="DE" label="Typ"/>
+      </LANGINFOS>
+    </CMS_INPUT_COMBOBOX>
+
+    <CMS_INPUT_TEXTAREA name="pt_md_description" hFill="yes" useLanguages="yes">
+      <LANGINFOS>
+        <LANGINFO lang="*" label="Description"/>
+        <LANGINFO lang="DE" label="Beschreibung"/>
+      </LANGINFOS>
+    </CMS_INPUT_TEXTAREA>
+
+    <CMS_INPUT_TEXT name="pt_md_keywords" hFill="yes" singleLine="no" useLanguages="yes">
+      <LANGINFOS>
+        <LANGINFO lang="*" label="Keywords"/>
+        <LANGINFO lang="DE" label="Schlagwörter"/>
+      </LANGINFOS>
+    </CMS_INPUT_TEXT>
+
+    <FS_REFERENCE name="pt_md_image" hFill="yes" upload="yes" useLanguages="no">
+      <FILTER>
+        <ALLOW type="picture"/>
+      </FILTER>
+      <LANGINFOS>
+        <LANGINFO lang="*" label="Image"/>
+        <LANGINFO lang="DE" label="Bild"/>
+      </LANGINFOS>
+      <PROJECTS>
+        <LOCAL name=".">
+          <SOURCES>
+            <FOLDER name="images" store="mediastore"/>
+          </SOURCES>
+        </LOCAL>
+      </PROJECTS>
+    </FS_REFERENCE>
+
+    <CMS_INPUT_TEXT name="pt_md_image_alt_text" hFill="yes" singleLine="no">
+      <LANGINFOS>
+        <LANGINFO lang="*" label="Alternative Text"/>
+        <LANGINFO lang="DE" label="Alternativ-Text"/>
+      </LANGINFOS>
+    </CMS_INPUT_TEXT>
+
+  </CMS_GROUP>
 
 </CMS_MODULE>

@@ -1,0 +1,1 @@
+"CTA " + if(!lt_type.isEmpty, lt_type.label(#language)) + if(!lt_link.isEmpty,lt_link.text)

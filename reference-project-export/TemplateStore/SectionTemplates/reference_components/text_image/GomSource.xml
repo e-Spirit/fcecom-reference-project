@@ -21,13 +21,17 @@
       <TEMPLATE name="p"/>
       <TEMPLATE name="h2"/>
       <TEMPLATE name="h3"/>
+      <TEMPLATE name="subline"/>
     </FORMATS>
     <LANGINFOS>
       <LANGINFO lang="*" label="Text"/>
     </LANGINFOS>
     <LINKEDITORS>
-      <LINKEDITOR name="internal_link"/>
-      <LINKEDITOR name="external_link"/>
+      <LINKEDITOR name="dom_content_link"/>
+      <LINKEDITOR name="dom_external_link"/>
+      <LINKEDITOR name="dom_product_link"/>
+      <LINKEDITOR name="dom_category_link"/>
+      <LINKEDITOR name="cta_link"/>
     </LINKEDITORS>
   </CMS_INPUT_DOM>
 

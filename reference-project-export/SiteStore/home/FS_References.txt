@@ -1,6 +1,0 @@
-[self]
-uid=home
-gid=40959978-66af-4a5c-b4ab-756b1f0d926e
-uidType=SITESTORE_FOLDER
-class=de.espirit.firstspirit.store.access.sitestore.PageRefFolderImpl
-

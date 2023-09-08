@@ -1,0 +1,16 @@
+import de.espirit.firstspirit.access.store.pagestore.Page;
+import de.espirit.firstspirit.access.store.sitestore.PageRef;
+import de.espirit.firstspirit.forms.NoSuchFormFieldException;
+
+if (e instanceof PageRef) {
+    page = e.getPage();
+    templateUid = page.getTemplate().getUid();
+
+    customData.put("pageTemplate", templateUid);
+
+    try {
+        customData.put("ecomShopId", page.getFormData().get(language, "id").get());
+    } catch (NoSuchFormFieldException noField) {
+        customData.put("ecomShopId", null);
+    }
+}

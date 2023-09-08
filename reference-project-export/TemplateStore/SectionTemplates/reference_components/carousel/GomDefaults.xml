@@ -1,0 +1,4 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<FIELDS>
+	<FIELD name='st_items'><CATALOG><CARD id="e963880c-578f-401b-853e-4fdb65b8212f" template="banner" type="TEMPLATESTORE"><TEMPLATECONTENT><CMS_VALUE name="st_image"><LANG id="§" set="0"/></CMS_VALUE><CMS_VALUE name="st_image_alt_text"><LANG id="*" set="0"/><LANG id="DE" set="0"/><LANG id="EN" set="0"/></CMS_VALUE><CMS_VALUE name="st_link"><LANG id="§" set="0"/></CMS_VALUE><CMS_VALUE name="st_title"><LANG id="*" set="0"/><LANG id="DE" set="0"/><LANG id="EN" set="0"/></CMS_VALUE><CMS_VALUE name="st_subtitle"><LANG id="*" set="0"/><LANG id="DE" set="0"/><LANG id="EN" set="0"/></CMS_VALUE><CMS_VALUE name="st_variant"><LANG id="§" set="0"/></CMS_VALUE></TEMPLATECONTENT></CARD></CATALOG></FIELD>
+</FIELDS>

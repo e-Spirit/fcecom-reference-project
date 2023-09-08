@@ -1,0 +1,6 @@
+[self]
+uid=product_link
+gid=13a164f2-5149-455a-9153-406d99cdc302
+uidType=TEMPLATESTORE_LINKTEMPLATE
+class=de.espirit.firstspirit.store.access.templatestore.LinkTemplateImpl
+
