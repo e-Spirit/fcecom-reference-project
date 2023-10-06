@@ -1,3 +1,8 @@
+## [1.3.0](https://github.com/e-Spirit/fcecom-reference-project/compare/v1.2.0...v1.3.0) (2023-10-06)
+
+### Changes
+* Added new `breakpoint` field to the Multi-Slot-Container section template to specify the number of items per row.
+
 ## [1.2.0](https://github.com/e-Spirit/fcecom-reference-project/compare/v1.1.6...v1.2.0) (2023-09-08)
 
 ### Changes

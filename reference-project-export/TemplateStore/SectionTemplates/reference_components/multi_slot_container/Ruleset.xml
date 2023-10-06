@@ -1,3 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <RULES>
+	<RULE>
+		<WITH>
+			<OR>
+				<EQUAL>
+					<PROPERTY name="STORETYPE" source="#global"/>
+					<TEXT>templatestore</TEXT>
+				</EQUAL>
+				<IN_GROUP name="Administrators"/>
+			</OR>
+		</WITH>
+		<DO>
+			<PROPERTY name="VISIBLE" source="#form.technical"/>
+		</DO>
+	</RULE>
 </RULES>

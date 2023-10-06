@@ -20,4 +20,18 @@
     </TEMPLATES>
   </FS_CATALOG>
 
+  <CMS_GROUP name="technical">
+    <LANGINFOS>
+      <LANGINFO lang="*" label="Technical"/>
+      <LANGINFO lang="DE" label="Technische Informationen"/>
+    </LANGINFOS>
+
+    <CMS_INPUT_NUMBER name="breakpoint" hFill="yes" singleLine="no" useLanguages="no">
+      <LANGINFOS>
+        <LANGINFO lang="*" label="Breakpoint for Teaser"/>
+      </LANGINFOS>
+    </CMS_INPUT_NUMBER>
+
+  </CMS_GROUP>
+
 </CMS_MODULE>
