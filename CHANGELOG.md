@@ -1,3 +1,8 @@
+## [1.4.0](https://github.com/e-Spirit/fcecom-reference-project/compare/v1.3.0...v1.4.0) (2023-11-16)
+
+### Changes
+* New scripts added to support CSS variants and the teaser grid.
+
 ## [1.3.0](https://github.com/e-Spirit/fcecom-reference-project/compare/v1.2.0...v1.3.0) (2023-10-06)
 
 ### Changes

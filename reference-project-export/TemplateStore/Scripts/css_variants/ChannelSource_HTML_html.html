@@ -1,0 +1,131 @@
+import de.espirit.firstspirit.access.store.Store;
+import de.espirit.firstspirit.agency.StoreAgent;
+import de.espirit.firstspirit.agency.LanguageAgent;
+import de.espirit.firstspirit.access.store.pagestore.Page;
+import de.espirit.firstspirit.access.store.pagestore.Section;
+import de.espirit.firstspirit.client.access.editor.lists.Catalog;
+
+/**
+ * Sample usage: 
+ * TPP_API.Common.execute('script:css_variants', {
+ *   dataProviderId: '2312',                                 // The ID of PageStore Element (Number as String)
+ *   language: '<language>',                                 // The current language
+ *   listEditorName: 'st_catalog',                           // (Optional) editor name for FS_CATALOG / FS_INDEX
+ *   listEditorIndex: '0',                                   // (Optional) index of Card / Record (Int as String)
+ *   variantEditorName: 'st_position',                       // Editor name for variant, e.g. CMS_INPUT_RADIOBUTTON
+ *   variantEditorValue: 'media-left',                       // Editor value for variant, (Option as String)
+ *   action: 'save' || 'labels',                             // Defines save-action or collect a labels and values
+ * })
+ */
+
+
+mandatoryFormField(formData, formFieldName) {
+  if (formData.form.findEditor(formFieldName) == null) {
+    throw new Exception("Given Element does not contain a editor named '" + formFieldName + "'!");
+  }
+}
+
+getLabelsForVariants(template) {
+  variantEditor = template.gomProvider.findEditor(variantEditorName);
+  entries = variantEditor.entries;
+  if (entries == null) throw new Exception("No entries found for editor name '" + variantEditorName + "' in template '" + template.uid + "'.");
+  result = new ArrayList();
+  for (entry : entries) {
+    element = new HashMap();
+    result.add(element);
+    element.put("label", entry.label(lang.abbreviation));
+    element.put("value", entry.value);
+  }
+  return result;  
+}
+
+isSaveAction = action.equals("save");
+isLabelsAction = action.equals("labels");
+if (!isSaveAction && !isLabelsAction) throw new Exception("Unknown action '" + action + "'.");
+
+page = null;
+labels = null;
+try {
+  if (dataProviderId == void) throw new Exception("Missing Parameter 'dataProviderId'.");
+  if (language == void) throw new Exception("Missing Parameter 'language'.");
+  if (variantEditorName == void) throw new Exception("Missing Parameter 'variantEditorName'.");
+  if (variantEditorValue == void) throw new Exception("Missing Parameter 'variantEditorValue'.");
+
+  dataProviderId = Long.parseLong(dataProviderId);
+
+  dataProvider = context.requireSpecialist(StoreAgent.TYPE)
+    .getStore(Store.Type.PAGESTORE)
+    .getStoreElement(dataProviderId);
+  if (dataProvider == null) throw new Exception("DataProvider not found!");
+
+  if (dataProvider instanceof Page) {
+    page = dataProvider;
+  } else if (dataProvider instanceof Section) {
+    page = dataProvider.parent.parent;
+  }
+  if (page == null) throw new Exception("DataProvider must be a Page or Section.");
+
+  lang = context.requireSpecialist(LanguageAgent.TYPE).getProjectLanguages(false).get(language);
+  if (lang == null) throw new Exception("Unknown Language Abbreviation! language=" + language);
+
+  if (isSaveAction) page.setLock(true, true);
+  
+  if (listEditorName != void){
+    mandatoryFormField(dataProvider.formData, listEditorName);
+    listEditor = dataProvider.formData.get(lang, listEditorName).get();
+    
+    // Catalog
+    if (listEditor instanceof Catalog) {
+      index = Integer.parseInt(listEditorIndex == void ? "0" : listEditorIndex);
+      cards = new ArrayList(listEditor);
+      card = cards.get(index);
+      cardFormData = card.item;
+      mandatoryFormField(cardFormData, variantEditorName);
+      
+      if (isSaveAction) {
+        cardFormData.get(lang, variantEditorName).set(variantEditorValue);
+        card.loadItem(cardFormData);
+        dataProviderFormData = dataProvider.formData;
+        dataProviderFormData.get(lang, listEditorName).set(listEditor);
+        dataProvider.setFormData(dataProviderFormData);
+
+      } else if (isLabelsAction) {
+        labels = getLabelsForVariants(card.template);
+      }
+    } else {
+      // You may add Index (FS_INDEX)
+      throw new Exception("Missing implementation for listEditor=" + listEditor + ".");
+    }
+
+  } else {
+    // Page or Section    
+    if (isSaveAction) {
+      mandatoryFormField(dataProvider.formData, variantEditorName);
+      formData = dataProvider.formData;
+      formData.get(lang, variantEditorName).set(variantEditorValue);
+      dataProvider.setFormData(formData);
+
+    } else if (isLabelsAction) {
+      labels = getLabelsForVariants(dataProvider.template);
+    }
+  }
+
+  if (isSaveAction) {
+    page.save();
+    result = new HashMap();
+    result.put("success", true);
+    return result;
+
+  } else if (isLabelsAction) {
+    return labels;
+  }
+
+} catch(e) {
+  context.logError(e.getMessage(), e);
+  result = new HashMap();
+  result.put("success", false);
+  result.put("errorMessage", e.message);
+  return result;
+} finally {
+  if (isSaveAction && page != null && page.isLocked()) page.setLock(false, true);
+}

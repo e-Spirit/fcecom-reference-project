@@ -1,0 +1,6 @@
+[self]
+uid=css_variants
+gid=a1f6c94a-5cd1-47f7-bd9f-28aab05de32a
+uidType=TEMPLATESTORE
+class=de.espirit.firstspirit.store.access.templatestore.ScriptImpl
+
