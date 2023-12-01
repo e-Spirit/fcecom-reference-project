@@ -51,11 +51,12 @@
         </PROJECTS>
       </FS_REFERENCE>
 
-      <CMS_INPUT_TEXT name="videoId" hFill="yes" singleLine="no" useLanguages="no">
+      <FS_INDEX name="videoId" height="1" useLanguages="yes" viewMode="details">
         <LANGINFOS>
-          <LANGINFO lang="*" label="YouTube Video ID"/>
+          <LANGINFO lang="*" label="YouTube Video"/>
         </LANGINFOS>
-      </CMS_INPUT_TEXT>
+        <SOURCE name="YouTube-DAP-Integration/YoutubeVideoDataAccessPlugin"/>
+      </FS_INDEX>
 
       <CMS_INPUT_RADIOBUTTON name="variant" gridWidth="3" hFill="yes" useLanguages="no">
         <ENTRIES>

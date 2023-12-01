@@ -1,3 +1,8 @@
+## [1.4.1](https://github.com/e-Spirit/fcecom-reference-project/compare/v1.4.0...v1.4.1) (2023-12-01)
+
+### Changes
+* Teaser Grid now selects the video from the YouTube DAP.
+
 ## [1.4.0](https://github.com/e-Spirit/fcecom-reference-project/compare/v1.3.0...v1.4.0) (2023-11-16)
 
 ### Changes
