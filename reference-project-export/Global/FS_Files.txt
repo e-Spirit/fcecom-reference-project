@@ -5,6 +5,8 @@ application/octet-stream  Modules/ProjectApps/YouTube-DAP-Integration/YouTube-DA
 text/plain        Modules/ProjectApps/YouTube-DAP-Integration/YouTube-DAP-Integration/version.txt
 application/json  Modules/ProjectApps/cxt-cc/ContentCreatorFeatureConfigurationProjectApp/features.json
 text/plain        Modules/ProjectApps/cxt-cc/ContentCreatorFeatureConfigurationProjectApp/version.txt
+application/json  Modules/ProjectApps/cxt-cc/ContentCreatorPreviewConfigurationProjectApp/preview.json
+text/plain        Modules/ProjectApps/cxt-cc/ContentCreatorPreviewConfigurationProjectApp/version.txt
 text/xml          Project/ConversionTables.xml
 text/xml          Project/CustomProperties.xml
 text/xml          Project/EditorialLanguages.xml

@@ -1,3 +1,8 @@
+## [1.5.0](https://github.com/e-Spirit/fcecom-reference-project/compare/v1.4.1...v1.5.0) (2024-01-30)
+
+### Changes
+* The default `Create Section` Button was disabled.
+
 ## [1.4.1](https://github.com/e-Spirit/fcecom-reference-project/compare/v1.4.0...v1.4.1) (2023-12-01)
 
 ### Changes
