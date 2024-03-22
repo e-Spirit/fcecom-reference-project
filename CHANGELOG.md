@@ -1,3 +1,8 @@
+## [1.6.0](https://github.com/e-Spirit/fcecom-reference-project/compare/v1.5.0...v1.6.0) (2024-03-22)
+
+### Changes
+* Added configuration to use OCM 3.0.
+
 ## [1.5.0](https://github.com/e-Spirit/fcecom-reference-project/compare/v1.4.1...v1.5.0) (2024-01-30)
 
 ### Changes
