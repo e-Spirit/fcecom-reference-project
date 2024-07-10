@@ -1,3 +1,8 @@
+## [1.7.0](https://github.com/e-Spirit/fcecom-reference-project/compare/v1.6.0...v1.7.0) (2024-07-10)
+
+### Changes
+* Added scripts for new bulk page creation executables.
+
 ## [1.6.0](https://github.com/e-Spirit/fcecom-reference-project/compare/v1.5.0...v1.6.0) (2024-03-22)
 
 ### Changes

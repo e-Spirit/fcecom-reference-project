@@ -1,0 +1,7 @@
+[self]
+uid=/bulk_page_creation
+gid=97276d45-3b99-4f3f-bde2-57db39eb22c8
+store=TEMPLATESTORE
+class=de.espirit.firstspirit.store.access.templatestore.ScriptFolderImpl
+root=de.espirit.firstspirit.store.access.templatestore.ScriptsImpl
+

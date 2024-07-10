@@ -1,8 +1,8 @@
 # mimeType        name
 application/json  Modules/ProjectApps/FirstSpirit Connect for Commerce/FirstSpirit Connect for Commerce - Project Configuration/configuration.json
 text/plain        Modules/ProjectApps/FirstSpirit Connect for Commerce/FirstSpirit Connect for Commerce - Project Configuration/version.txt
-application/octet-stream  Modules/ProjectApps/YouTube-DAP-Integration/YouTube-DAP-Integration/configuration.properties
-text/plain        Modules/ProjectApps/YouTube-DAP-Integration/YouTube-DAP-Integration/version.txt
+application/json  Modules/ProjectApps/YouTube-DAP-Integration/YouTube-DAP-Integration-ProjectApp/configuration.json
+text/plain        Modules/ProjectApps/YouTube-DAP-Integration/YouTube-DAP-Integration-ProjectApp/version.txt
 application/json  Modules/ProjectApps/cxt-cc/ContentCreatorFeatureConfigurationProjectApp/features.json
 text/plain        Modules/ProjectApps/cxt-cc/ContentCreatorFeatureConfigurationProjectApp/version.txt
 application/json  Modules/ProjectApps/cxt-cc/ContentCreatorPreviewConfigurationProjectApp/preview.json

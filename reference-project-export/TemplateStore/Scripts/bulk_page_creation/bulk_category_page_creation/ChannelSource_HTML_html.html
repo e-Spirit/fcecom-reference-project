@@ -1,0 +1,12 @@
+import de.espirit.firstspirit.access.*;
+import de.espirit.firstspirit.access.script.Executable;
+
+parameters = new HashMap();
+parameters.put("context", context);
+parameters.put("bulk_category_page_creation_subcategory", "smart-products");
+parameters.put("bulk_category_page_creation_template", "category");
+parameters.put("bulk_category_page_creation_subfolder", "smart_products");
+parameters.put("bulk_category_page_creation_release", "true");
+moduleAgent = context.requireSpecialist(ModuleAgent.TYPE);
+executable = moduleAgent.getTypeForName("FirstSpirit Connect for Commerce - Bulk Create Category Pages", Executable.class).newInstance();
+executable.execute(parameters, null, null);

@@ -1,0 +1,6 @@
+[self]
+uid=bulk_category_page_creation
+gid=abea20c6-0dfd-4933-914a-d7fa6a863463
+uidType=TEMPLATESTORE
+class=de.espirit.firstspirit.store.access.templatestore.ScriptImpl
+
