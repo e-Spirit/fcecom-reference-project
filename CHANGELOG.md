@@ -1,3 +1,10 @@
+## [1.8.0](https://github.com/e-Spirit/fcecom-reference-project/compare/v1.7.0...v1.8.0) (2024-09-04)
+
+### Changes
+
+* Added `keywords` field to product page template.
+* Added example script for use of `FirstSpirit Connect for Commerce - Executable: Bulk Enhance Product Pages`.
+
 ## [1.7.0](https://github.com/e-Spirit/fcecom-reference-project/compare/v1.6.0...v1.7.0) (2024-07-10)
 
 ### Changes

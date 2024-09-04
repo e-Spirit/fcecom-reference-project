@@ -25,4 +25,15 @@
 
   </CMS_GROUP>
 
+  <CMS_GROUP name="meta">
+
+    <CMS_INPUT_TEXT name="keywords" hFill="yes" singleLine="no" useLanguages="yes">
+      <LANGINFOS>
+        <LANGINFO lang="*" label="Keywords"/>
+        <LANGINFO lang="DE" label="Schlüsselbegriffe"/>
+      </LANGINFOS>
+    </CMS_INPUT_TEXT>
+
+  </CMS_GROUP>
+
 </CMS_MODULE>

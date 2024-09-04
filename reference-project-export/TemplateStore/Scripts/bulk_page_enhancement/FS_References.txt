@@ -1,0 +1,7 @@
+[self]
+uid=/bulk_page_enhancement
+gid=3d498e63-1c09-49dc-918d-e8c845c511c8
+store=TEMPLATESTORE
+class=de.espirit.firstspirit.store.access.templatestore.ScriptFolderImpl
+root=de.espirit.firstspirit.store.access.templatestore.ScriptsImpl
+

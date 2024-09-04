@@ -1,0 +1,15 @@
+import de.espirit.firstspirit.access.*;
+import de.espirit.firstspirit.access.script.Executable;
+import de.espirit.firstspirit.agency.LanguageAgent;
+
+Language language = context.requireSpecialist(LanguageAgent.TYPE).getLanguages().get(0);
+
+parameters = new HashMap();
+parameters.put("context", context);
+parameters.put("form_field_name", "keywords");
+parameters.put("language", language);
+
+
+moduleAgent = context.requireSpecialist(ModuleAgent.TYPE);
+executable = moduleAgent.getTypeForName("FirstSpirit Connect for Commerce - Bulk Enhance Product Pages", Executable.class).newInstance();
+executable.execute(parameters, null, null);
