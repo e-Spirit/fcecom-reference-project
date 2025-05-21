@@ -1,3 +1,9 @@
+## [1.9.0](https://github.com/e-Spirit/fcecom-reference-project/compare/v1.8.0...v1.9.0) (2025-05-15)
+
+### Changes
+
+* Added schedule for automated connection test of the bridge.
+
 ## [1.8.0](https://github.com/e-Spirit/fcecom-reference-project/compare/v1.7.0...v1.8.0) (2024-09-04)
 
 ### Changes
